@@ -1,0 +1,31 @@
+.foot-container {
+  display: flex;
+  margin-top: 50px;
+  background-color: black;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-logo {
+  width: 22vh;
+  margin-left: 75px;
+}
+
+.social-media-logo {
+  width: 4vh;
+}
+.social-media-icons {
+  display: flex;
+}
+
+.footer-location {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.location-title {
+  list-style: none;
+}
+.location-list {
+  list-style: none;
+  font-size: 13px;
+}
