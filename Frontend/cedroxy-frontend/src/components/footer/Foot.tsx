@@ -16,8 +16,11 @@ function Foot() {
       <div className="location-menu">
         <ul className="footer-location">
           <li className="location-title">LOCATION</li>
-          <li className="location-list">7th Floor</li>
-          <li className="location-list">76432922</li>
+          <li className="location-list">Cedroxy Atelier</li>
+          <li className="location-list">Barouk</li>
+          <li className="location-list">El-Chouf</li>
+          <li className="location-list">Mount Lebanon</li>
+          <li className="location-list">+961 76 432 922</li>
           <li className="location-list">Cedroxy.lb@gmail.com</li>
         </ul>
       </div>

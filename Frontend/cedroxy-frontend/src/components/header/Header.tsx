@@ -11,6 +11,7 @@ import CedroxyLogo from "../../assets/CedroxyLogo.png";
 
 //Navigate
 import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const navigate = useNavigate();
@@ -29,9 +30,15 @@ function Header() {
             <li className="menu-item" onClick={() => navigate("/")}>
               Home
             </li>
-            <li className="menu-item">Shop</li>
+            <li className="menu-item" onClick={() => navigate("shop-page")}>
+              Shop
+            </li>
             <li className="menu-item">Quote</li>
-            <li className="menu-item">About Us</li>
+            <li className="menu-item">
+              <HashLink className="menu-item-link" to="/#aboutus">
+                About Us
+              </HashLink>
+            </li>
           </ul>
         </div>
         <div className="header-social-media-icons">

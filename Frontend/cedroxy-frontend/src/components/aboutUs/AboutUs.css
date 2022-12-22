@@ -1,0 +1,13 @@
+.about-us-pic {
+  border-radius: 50%;
+  width: 40vh;
+}
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 28px;
+}
+.about-us-text {
+  margin-left: 37px;
+}
