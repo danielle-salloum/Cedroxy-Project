@@ -1,10 +1,10 @@
-import React from "react";
 import "./ProductsComponent.css";
 //props
 type ProductPropsType = {
   image: any;
   name: string;
   description: string;
+  category?: string;
 };
 
 function ProductsComponent(props: ProductPropsType) {
@@ -16,7 +16,9 @@ function ProductsComponent(props: ProductPropsType) {
         src={props.image}
         alt={props.name}
       />
-      <p className="product-component-name">{props.name}</p>
+      <div>
+        <p className="product-component-name">{props.name}</p>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,10 @@ function TopSection() {
         alt="Top Section Pic"
         className="top-section-pic"
       />
-      <h1 className="top-section-text">Cedroxy Quote</h1>
+      <h1 className="top-section-text">
+        Reflecting the lebanese beauty using different species of trees grown
+        around this region
+      </h1>
     </div>
   );
 }

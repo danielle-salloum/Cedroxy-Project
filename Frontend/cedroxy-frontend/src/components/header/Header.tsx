@@ -1,12 +1,15 @@
 import "./Header.css";
 
+//Components
+import ShopMenu from "../shopMenu/ShopMenu";
+
 //logos
-import WaIcon from "../../assets/wtsp.png";
-import EmIcon from "../../assets/email.png";
-import YtIcon from "../../assets/YouTube.png";
-import FbIcon from "../../assets/facebook.png";
-import IgIcon from "../../assets/instagram.png";
-import TiktokIcon from "../../assets/tiktok.png";
+import WaIcon from "../../assets/socialmedia/wtsp.png";
+import EmIcon from "../../assets/socialmedia/email.png";
+import YtIcon from "../../assets/socialmedia/YouTube.png";
+import FbIcon from "../../assets/socialmedia/facebook.png";
+import IgIcon from "../../assets/socialmedia/instagram.png";
+import TiktokIcon from "../../assets/socialmedia/tiktok.png";
 import CedroxyLogo from "../../assets/CedroxyLogo.png";
 
 //Navigate
@@ -24,16 +27,23 @@ function Header() {
         src={CedroxyLogo}
         alt="No logo Is Found"
       />
+      {/* MENU */}
       <div className="header-menu">
         <div className="header-list-menu">
           <ul className="menu-ul">
             <li className="menu-item" onClick={() => navigate("/")}>
               Home
             </li>
-            <li className="menu-item" onClick={() => navigate("shop-page")}>
-              Shop
+            <li
+              className="menu-item"
+              onMouseOver={() => {}}
+              onClick={() => navigate("/shop")}
+            >
+              <ShopMenu />
             </li>
-            <li className="menu-item">Quote</li>
+            <li className="menu-item" onClick={() => navigate("/quote")}>
+              Quote
+            </li>
             <li className="menu-item">
               <HashLink className="menu-item-link" to="/#aboutus">
                 About Us
@@ -41,23 +51,48 @@ function Header() {
             </li>
           </ul>
         </div>
+        {/* Social media */}
         <div className="header-social-media-icons">
-          <a href="tel:+96176432922 ">
-            <img className="social-media-logo" src={WaIcon} alt="WhatsApp" />
+          <a target="_blank" rel="noreferrer" href="tel:+96176432922 ">
+            <img
+              className="social-media-wtsp-logo"
+              src={WaIcon}
+              alt="WhatsApp"
+            />
           </a>
-          <a href="https://instagram.com/cedroxy?igshid=ZmRlMzRkMDU=">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://instagram.com/cedroxy?igshid=ZmRlMzRkMDU="
+          >
             <img className="social-media-logo" src={IgIcon} alt="Instagram" />
           </a>
-          <a href="https://youtube.com/@cedroxy">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://youtube.com/@cedroxy"
+          >
             <img className="social-media-logo" src={YtIcon} alt="YouTube" />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100087213062329&mibextid=ZbWKwL">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100087213062329&mibextid=ZbWKwL"
+          >
             <img className="social-media-logo" src={FbIcon} alt="Facebook" />
           </a>
-          <a href="mailto:Cedroxy.lb@gmail.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:Cedroxy.lb@gmail.com"
+          >
             <img className="social-media-logo" src={EmIcon} alt="Email" />
           </a>
-          <a href="https://www.tiktok.com/@cedroxy.lb?_t=8YIw44LwP6g&_r=1">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.tiktok.com/@cedroxy.lb?_t=8YIw44LwP6g&_r=1"
+          >
             <img className="social-media-logo" src={TiktokIcon} alt="Tiktok" />
           </a>
         </div>

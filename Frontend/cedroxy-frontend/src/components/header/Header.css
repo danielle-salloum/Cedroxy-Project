@@ -1,15 +1,25 @@
+/* Header */
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(27, 27, 27);
+  /* position: fixed; 
+  width: 100%;*/
 }
 
+/* LOGO */
 .cedroxy-header-logo {
   width: 22vh;
 }
 .cedroxy-header-logo:hover {
   cursor: pointer;
+}
+
+/* MENU */
+.header-menu {
+  display: flex;
+  flex-direction: column;
 }
 .menu-ul {
   list-style: none;
@@ -19,21 +29,29 @@
 .menu-item {
   padding: 10px 20px;
   font-size: 22px;
-  color: white;
-  font-family: serif;
+  color: beige;
+  font-family: "PT Serif", serif;
 }
 .menu-item:hover {
   cursor: pointer;
 }
 .menu-item-link {
   text-decoration: none;
-  color: white;
+  color: beige;
+}
+.header-list-menu {
+  text-align: center;
+  margin-right: 35px;
 }
 
+/* SOCIAL MEDIA */
 .header-social-media-icons {
   display: flex;
   justify-content: space-around;
 }
 .social-media-logo {
-  width: 5vh;
+  width: 26px;
+}
+.social-media-wtsp-logo {
+  width: 26px;
 }

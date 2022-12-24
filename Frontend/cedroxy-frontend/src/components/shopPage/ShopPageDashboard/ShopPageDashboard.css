@@ -1,4 +1,7 @@
 .shop-page-dashboard-container {
   flex: 1.5;
-  border-right: 1px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 130px;
+  margin-top: 63px;
 }

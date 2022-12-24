@@ -13,7 +13,6 @@ function HomePage() {
       <TopSection />
       <AboutUs />
       <ProductsContainer />
-      <div className="footer-line"></div>
       <Foot />
     </div>
   );

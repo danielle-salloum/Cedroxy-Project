@@ -1,0 +1,14 @@
+const products= [{
+    id:1,
+    name:"product 1",
+    image:"",
+    categoryId: 1
+}]
+    
+const categories=[{
+    categoryId:1,
+    name: "Table",
+},{
+    categoryId:2,
+    name: "ChessBoard",
+}]
