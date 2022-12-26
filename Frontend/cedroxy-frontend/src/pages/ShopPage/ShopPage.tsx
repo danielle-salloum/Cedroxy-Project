@@ -10,7 +10,6 @@ import ShopPageDashboard from "../../components/shopPage/ShopPageDashboard/ShopP
 import { useParams } from "react-router";
 
 function ShopPage() {
-  let categoryId = useParams;
   return (
     <div>
       <Header />

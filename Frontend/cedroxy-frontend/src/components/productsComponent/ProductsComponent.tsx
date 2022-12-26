@@ -3,7 +3,7 @@ import "./ProductsComponent.css";
 type ProductPropsType = {
   image: any;
   name: string;
-  description: string;
+  description?: string;
   category?: string;
 };
 
@@ -18,6 +18,7 @@ function ProductsComponent(props: ProductPropsType) {
       />
       <div>
         <p className="product-component-name">{props.name}</p>
+        <p className="product-component-description">{props.description}</p>
       </div>
     </div>
   );

@@ -55,3 +55,16 @@
 .social-media-wtsp-logo {
   width: 26px;
 }
+
+/* Media */
+
+@media only screen and (max-width: px) {
+  .top-section-text {
+    font-size: 47px;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

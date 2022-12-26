@@ -1,15 +1,13 @@
 import "./ShopPageSideBar.css";
 
-//Navigate
-import { useNavigate } from "react-router";
-
 //data.json
 import data from "../../../Data.json";
 
-//Hooks
-import { useState } from "react";
+//Navigate
+import { useNavigate } from "react-router";
 
 function ShopPageSideBar() {
+  //navigation
   const navigate = useNavigate();
 
   //get categories
