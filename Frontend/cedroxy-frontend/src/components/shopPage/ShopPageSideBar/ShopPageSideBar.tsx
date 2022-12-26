@@ -3,31 +3,45 @@ import "./ShopPageSideBar.css";
 //Navigate
 import { useNavigate } from "react-router";
 
+//data.json
+import data from "../../../Data.json";
+
+//Hooks
+import { useState } from "react";
+
 function ShopPageSideBar() {
   const navigate = useNavigate();
+
+  //get categories
+  let test = 1;
+  const categoryList = data.categories;
+
+  //show more:
+  // const [isShowMore, setIsShowMore] = useState(true);
+
   return (
     <div className="mySidenav">
-      <span className="tables" onClick={() => navigate("/shop/table")}>
-        Tables
-      </span>
-      <span
-        className="chess-board"
-        onClick={() => navigate("/shop/chess-board")}
+      <div
+        className={
+          test === 1 ? "side-bar-categories" : "side-bar-categories test"
+        }
+        onClick={() => navigate(`/shop`)}
       >
-        Chess Boards
-      </span>
-      <span
-        className="wall-clocks"
-        onClick={() => navigate("/shop/wall-clocks")}
-      >
-        Wall Clocks
-      </span>
-      <span className="bar" onClick={() => navigate("/shop/bar")}>
-        Bar
-      </span>
-      <span className="trays" onClick={() => navigate("/shop/trays")}>
-        Trays
-      </span>
+        Shop
+      </div>
+      {categoryList && categoryList.length > 0
+        ? categoryList.map((category: any, index: any) => (
+            <div
+              key={index}
+              className={
+                test === 1 ? "side-bar-categories" : "side-bar-categories test"
+              }
+              onClick={() => navigate(`/shop/${category.categoryId}`)}
+            >
+              {category.name}
+            </div>
+          ))
+        : "No Categories Found"}
     </div>
   );
 }

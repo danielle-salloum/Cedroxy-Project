@@ -22,7 +22,12 @@ import {
 //pics
 import ChessBoardPic from "../../assets/products/Product2.png";
 
+//data
+import data from "../../Data.json";
+
 function QuotePage() {
+  //categories
+  const categoryList = data.categories;
   //UseState:
   //Shape drop down list
   const [shape, setShape] = React.useState("");
@@ -44,7 +49,11 @@ function QuotePage() {
   const handleProductChange = (event: SelectChangeEvent) => {
     setProduct(event.target.value as string);
   };
-
+  //category drop down list
+  const [category, setCategory] = React.useState("");
+  const handleCategoryChange = (event: SelectChangeEvent) => {
+    setCategory(event.target.value as string);
+  };
   return (
     <div>
       <Header />
@@ -61,8 +70,31 @@ function QuotePage() {
             image={ChessBoardPic}
           />
 
-          {/* Product list */}
+          {/* Category list */}
           <Grid className="main-grid" container spacing={2}>
+            <Grid item xs={6} md={6} lg={6}>
+              <Box sx={{ minWidth: 120 }}>
+                <FormControl fullWidth>
+                  <InputLabel id="demo-simple-select-label">
+                    Select Your category
+                  </InputLabel>
+                  <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    value={category}
+                    label="Category"
+                    onChange={handleCategoryChange}
+                  >
+                    {categoryList && categoryList.length > 0
+                      ? categoryList.map((category: any, index: any) => (
+                          <MenuItem value={index}>{category.name}</MenuItem>
+                        ))
+                      : "No Categories Found"}
+                  </Select>
+                </FormControl>
+              </Box>
+            </Grid>
+            {/* Products list */}
             <Grid item xs={6} md={6} lg={6}>
               <Box sx={{ minWidth: 120 }}>
                 <FormControl fullWidth>
@@ -76,11 +108,11 @@ function QuotePage() {
                     label="Product"
                     onChange={handleProductChange}
                   >
-                    <MenuItem value={10}>Tables</MenuItem>
-                    <MenuItem value={20}>ChessBoard</MenuItem>
-                    <MenuItem value={30}>Wall Clocks</MenuItem>
-                    <MenuItem value={40}>Bar</MenuItem>
-                    <MenuItem value={50}>Trays</MenuItem>
+                    {categoryList && categoryList.length > 0
+                      ? categoryList.map((category: any, index: any) => (
+                          <MenuItem value={index}>{category.name}</MenuItem>
+                        ))
+                      : "No Categories Found"}
                   </Select>
                 </FormControl>
               </Box>

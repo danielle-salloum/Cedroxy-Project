@@ -31,7 +31,10 @@
   color: rgb(27, 27, 27);
   background-color: beige !important;
 }
-
+.test {
+  color: rgb(27, 27, 27);
+  background-color: beige !important;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
