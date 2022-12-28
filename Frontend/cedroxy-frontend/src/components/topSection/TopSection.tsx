@@ -14,39 +14,10 @@ import slideshow5 from "../../assets/Slideshow/slideshow5.jpg";
 import slideshow6 from "../../assets/Slideshow/slideshow6.jpg";
 
 //slideshow package
-import { Slide } from "react-slideshow-image";
+//import { Carousel } from "react-bootstrap";
 
 function TopSection() {
-  // const slideImages = [
-  //   {
-  //     url: { slideshow1 },
-  //   },
-  //   {
-  //     url: { slideshow2 },
-  //   },
-  //   {
-  //     url: { slideshow3 },
-  //   },
-  //   {
-  //     url: { slideshow4 },
-  //   },
-  //   {
-  //     url: { slideshow5 },
-  //   },
-  //   {
-  //     url: { slideshow6 },
-  //   },
-  // ];
   return (
-    // <div>
-    //   <Slide>
-    //     {slideImages.map((slideImage, index) => (
-    //       <div className="each-slide" key={index}>
-    //         <div style={{ backgroundImage: `url(${slideImage.url})` }}></div>
-    //       </div>
-    //     ))}
-    //   </Slide>
-    // </div>
     <div className="top-section-container">
       <img
         src={topSectionPic}

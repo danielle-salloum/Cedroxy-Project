@@ -17,6 +17,7 @@ function ShopPageSideBar() {
   //show more:
   // const [isShowMore, setIsShowMore] = useState(true);
 
+  //maintain hover on click:
   return (
     <div className="mySidenav">
       <div

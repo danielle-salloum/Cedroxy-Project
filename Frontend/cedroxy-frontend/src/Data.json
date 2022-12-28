@@ -128,5 +128,15 @@
       "categoryId": 5,
       "name": "Tray"
     }
+  ],
+  "shapes": [
+    {
+      "shapeId": 1,
+      "name": "Rectangular"
+    },
+    {
+      "shapeId": 2,
+      "name": "Circular"
+    }
   ]
 }

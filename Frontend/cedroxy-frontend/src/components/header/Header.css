@@ -58,13 +58,14 @@
 
 /* Media */
 
-@media only screen and (max-width: px) {
-  .top-section-text {
-    font-size: 47px;
-    color: whitesmoke;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* @media only screen and (max-width: 408px) {
+  .header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    width: 1000px;
   }
+} */
+@media only screen and (max-width: 1080px) {
 }

@@ -4,11 +4,11 @@ import "./ShopPageDashboard.css";
 import data from "../../../Data.json";
 
 //Hooks
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 //Components
 import ProductsComponent from "../../productsComponent/ProductsComponent";
-import { useState } from "react";
 
 function ShopPageDashboard() {
   //get products
@@ -23,19 +23,29 @@ function ShopPageDashboard() {
   );
 
   //show more
-  const [showMore, setShowMore] = useState(false);
+  const [displayCount, setDisplayCount] = useState(8);
+
+  const handleShowMore = () => {
+    setDisplayCount(productsList.length);
+  };
+
+  const handleShowLess = () => {
+    setDisplayCount(8);
+  };
 
   return (
     <div className="shop-page-dashboard-container">
       {categoryId != null
         ? filtered && filtered.length > 0
           ? filtered.map((filtered_product: any, index: any) => (
-              <ProductsComponent
-                key={index}
-                name={filtered_product.name}
-                description={filtered_product.description}
-                image={filtered_product.image}
-              />
+              <div>
+                <ProductsComponent
+                  key={index}
+                  name={filtered_product.name}
+                  description={filtered_product.description}
+                  image={filtered_product.image}
+                />
+              </div>
             ))
           : "No Products Found"
         : productsList && productsList.length > 0
@@ -49,13 +59,13 @@ function ShopPageDashboard() {
           ))
         : "No Products Found"}
 
-      {showMore && (
+      {/* {showMore && (
         <p>
           This is the additional content that will be shown when the button is
           clicked.
         </p>
       )}
-      <button onClick={() => setShowMore(!showMore)}>See More</button>
+      <button onClick={() => setShowMore(!showMore)}>See More</button> */}
     </div>
   );
 }

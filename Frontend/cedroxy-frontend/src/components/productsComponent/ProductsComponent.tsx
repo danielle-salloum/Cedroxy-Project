@@ -1,4 +1,11 @@
 import "./ProductsComponent.css";
+
+//Navigate
+import { useNavigate } from "react-router";
+
+//Hooks
+import { useParams } from "react-router";
+
 //props
 type ProductPropsType = {
   image: any;
@@ -8,6 +15,9 @@ type ProductPropsType = {
 };
 
 function ProductsComponent(props: ProductPropsType) {
+  //navigate
+  const navigate = useNavigate();
+
   return (
     <div className="product-component-container">
       <img

@@ -29,3 +29,9 @@
   margin-left: 100px;
   cursor: pointer;
 }
+
+.mySidenav div:h {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  margin-left: 100px;
+  cursor: pointer;
+}

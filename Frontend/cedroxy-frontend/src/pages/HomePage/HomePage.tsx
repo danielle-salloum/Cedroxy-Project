@@ -8,7 +8,7 @@ import ProductsContainer from "../../components/productsContainer/ProductsContai
 
 function HomePage() {
   return (
-    <div>
+    <div className="home-page-container">
       <Header />
       <TopSection />
       <AboutUs />

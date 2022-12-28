@@ -3,6 +3,7 @@
   justify-content: space-evenly;
   flex-direction: column;
   margin: 28px;
+  flex-wrap: wrap;
 }
 .products-components {
   display: flex;

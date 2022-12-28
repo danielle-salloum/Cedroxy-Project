@@ -1,6 +1,9 @@
 import "./QuotePage.css";
 import React from "react";
 
+//data
+import data from "../../Data.json";
+
 //component
 import Foot from "../../components/footer/Foot";
 import Header from "../../components/header/Header";
@@ -19,9 +22,6 @@ import {
   TextField,
 } from "@mui/material";
 
-//data
-import data from "../../Data.json";
-
 //pics
 import ChessBoardPic from "../../assets/products/Product2.png";
 
@@ -29,8 +29,8 @@ function QuotePage() {
   //get categories
   const categoryList = data.categories;
 
-  //UseState:
-
+  //get shapes
+  const shapeList = data.shapes;
   //Shape drop down list
   const [shape, setShape] = React.useState("");
   const handleShapeChange = (event: SelectChangeEvent) => {
@@ -114,8 +114,13 @@ function QuotePage() {
                     label="Shape"
                     onChange={handleShapeChange}
                   >
-                    <MenuItem value={10}>Circular</MenuItem>
-                    <MenuItem value={20}>Rectangular</MenuItem>
+                    {shapeList && shapeList.length > 0
+                      ? shapeList.map((shape: any, index: any) => (
+                          <MenuItem value={index}>{shape.name}</MenuItem>
+                        ))
+                      : "No shapes Found"}
+                    {/* <MenuItem value={10}>Circular</MenuItem>
+                    <MenuItem value={20}>Rectangular</MenuItem> */}
                   </Select>
                 </FormControl>
               </Box>

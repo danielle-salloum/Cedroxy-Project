@@ -4,7 +4,7 @@ import "./ShopMenu.css";
 import data from "../../Data.json";
 
 //Material UI
-import { MenuItem } from "@mui/material";
+import { Menu, MenuItem } from "@mui/material";
 
 //Navigate
 import { useNavigate } from "react-router";
@@ -28,8 +28,8 @@ function ShopMenu() {
               <MenuItem
                 key={index}
                 className="dropdown-menu-item"
-                onClick={() => navigate(`/shop/${category.categoryId}`)}
-                // onClick={() => console.log(`/shop/${category.categoryId}`)}
+                //onClick={() => navigate(`/shop/${category.categoryId}`)}
+                onClick={() => console.log(`/shop/${category.categoryId}`)}
               >
                 {category.name}
               </MenuItem>
