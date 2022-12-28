@@ -24,6 +24,7 @@ import {
 
 //pics
 import ChessBoardPic from "../../assets/products/Product2.png";
+import FloatingWhatsapp from "../FloatingWhatsapp/FloatingWhatsapp";
 
 function QuotePage() {
   //get categories

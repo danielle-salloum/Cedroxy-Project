@@ -15,7 +15,7 @@ function ShopMenu() {
 
   //get categories
   const categoryList = data.categories;
-
+  console.log("category list: ", categoryList);
   return (
     <div className="dropdown">
       <button className="dropbtn">

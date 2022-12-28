@@ -1,7 +1,2 @@
-@media only screen and (max-width: 360px) {
-  .home-page-container {
-    background-color: beige;
-    width: 947px;
-    height: 3817px;
-  }
+@media only screen and (max-width: 408px) {
 }

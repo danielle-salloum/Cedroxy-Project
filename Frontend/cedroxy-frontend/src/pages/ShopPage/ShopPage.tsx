@@ -7,21 +7,31 @@ import ShopPageSideBar from "../../components/shopPage/ShopPageSideBar/ShopPageS
 import ShopPageDashboard from "../../components/shopPage/ShopPageDashboard/ShopPageDashboard";
 
 //Hooks
-import { useParams } from "react-router";
+import { useEffect } from "react";
 
 function ShopPage() {
+  //to open on top of the page
+  const scrollOnTop = () => {
+    window.scroll(0, 0);
+  };
+  useEffect(() => {
+    scrollOnTop();
+  }, []);
+
+  //to zoom out
+  // const zoom = () => {};
+  // useEffect(() => {
+  //   zoom();
+  // }, []);
+
   return (
     <div>
       <Header />
       <div className="shop-page-container">
-        <ShopPageDashboard
-        // categoryId={categoryId}
-        />
+        <ShopPageDashboard />
         <ShopPageSideBar />
       </div>
-      <div className="shop-page-footer">
-        <Foot />
-      </div>
+      <Foot />
     </div>
   );
 }

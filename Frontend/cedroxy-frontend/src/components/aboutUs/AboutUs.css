@@ -14,3 +14,14 @@
 .about-us-header {
   text-align: center;
 }
+
+/* Media Query */
+@media only screen and (max-width: 408px) {
+  .about-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 28px;
+    width: 920px;
+  }
+}

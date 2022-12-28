@@ -34,10 +34,13 @@
   color: rgb(214, 212, 218) !important;
 }
 .location-list {
-  list-style: none;
+  list-style: none !important;
   font-size: 13px;
 }
-
+.footer-info {
+  text-decoration: none !important;
+  color: beige;
+}
 /* SOCIAL MEDIA */
 .social-media-footer {
   display: flex;
@@ -53,4 +56,8 @@
 }
 .social-media-icons {
   display: flex;
+}
+
+/* Media Query */
+@media only screen and (max-width: 408px) {
 }

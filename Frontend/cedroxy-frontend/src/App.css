@@ -2,43 +2,10 @@
   background-color: beige;
 }
 
-.floating {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-
-.fab-icon {
-  margin-top: 16px;
-}
 /* Media Query */
-@media only screen and (max-width: 1211px) {
+@media only screen and (max-width: 408px) {
   .app-container {
     background-color: beige;
-    width: 947px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .app-container {
-    background-color: beige;
-    width: 947px;
-
-    height: 3817px;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .app-container {
-    background-color: beige;
-    width: 947px;
-    height: 500px;
+    width: 974px;
   }
 }

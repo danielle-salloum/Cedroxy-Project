@@ -1,14 +1,15 @@
 import "./Foot.css";
 
 //logos
+import LocationIcon from "../../assets/location.png";
+import CedroxyLogo from "../../assets/CedroxyLogo.png";
 import WaIcon from "../../assets/socialmedia/wtsp.png";
 import EmIcon from "../../assets/socialmedia/email.png";
 import YtIcon from "../../assets/socialmedia/YouTube.png";
 import FbIcon from "../../assets/socialmedia/facebook.png";
 import IgIcon from "../../assets/socialmedia/instagram.png";
 import TiktokIcon from "../../assets/socialmedia/tiktok.png";
-import CedroxyLogo from "../../assets/CedroxyLogo.png";
-import LocationIcon from "../../assets/location.png";
+import FloatingWhatsapp from "../../pages/FloatingWhatsapp/FloatingWhatsapp";
 
 function Foot() {
   return (
@@ -32,8 +33,16 @@ function Foot() {
           <li className="location-list">Barouk</li>
           <li className="location-list">El-Chouf</li>
           <li className="location-list">Mount Lebanon</li>
-          <li className="location-list">+961 76 432 922</li>
-          <li className="location-list">Cedroxy.lb@gmail.com</li>
+          <li className="location-list">
+            <a className="footer-info" href="tel:+96176432922">
+              +961 76 432 922
+            </a>
+          </li>
+          <li className="location-list">
+            <a className="footer-info" href="mailto:Cedroxy.lb@gmail.com ">
+              Cedroxy.lb@gmail.com
+            </a>
+          </li>
         </ul>
       </div>
       <div className="social-media-footer">
@@ -78,6 +87,7 @@ function Foot() {
             <img className="social-media-logo" src={TiktokIcon} alt="Tiktok" />
           </a>
         </div>
+        <FloatingWhatsapp />
       </div>
     </div>
   );

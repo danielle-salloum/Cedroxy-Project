@@ -4,13 +4,13 @@ import "./Header.css";
 import ShopMenu from "../shopMenu/ShopMenu";
 
 //logos
+import CedroxyLogo from "../../assets/CedroxyLogo.png";
 import WaIcon from "../../assets/socialmedia/wtsp.png";
 import EmIcon from "../../assets/socialmedia/email.png";
 import YtIcon from "../../assets/socialmedia/YouTube.png";
 import FbIcon from "../../assets/socialmedia/facebook.png";
 import IgIcon from "../../assets/socialmedia/instagram.png";
 import TiktokIcon from "../../assets/socialmedia/tiktok.png";
-import CedroxyLogo from "../../assets/CedroxyLogo.png";
 
 //Navigate
 import { useNavigate } from "react-router-dom";
@@ -34,11 +34,7 @@ function Header() {
             <li className="menu-item" onClick={() => navigate("/")}>
               Home
             </li>
-            <li
-              className="menu-item"
-              onMouseOver={() => {}}
-              onClick={() => navigate("/shop")}
-            >
+            <li className="menu-item" onClick={() => navigate("/shop")}>
               <ShopMenu />
             </li>
             <li className="menu-item" onClick={() => navigate("/quote")}>
