@@ -22,17 +22,6 @@ function ShopPageDashboard() {
     (product: any, index: any) => product.categoryId == categoryId
   );
 
-  //show more
-  const [displayCount, setDisplayCount] = useState(8);
-
-  const handleShowMore = () => {
-    setDisplayCount(productsList.length);
-  };
-
-  const handleShowLess = () => {
-    setDisplayCount(8);
-  };
-
   return (
     <div className="shop-page-dashboard-container">
       {categoryId != null
@@ -58,14 +47,6 @@ function ShopPageDashboard() {
             />
           ))
         : "No Products Found"}
-
-      {/* {showMore && (
-        <p>
-          This is the additional content that will be shown when the button is
-          clicked.
-        </p>
-      )}
-      <button onClick={() => setShowMore(!showMore)}>See More</button> */}
     </div>
   );
 }

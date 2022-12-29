@@ -96,37 +96,42 @@
       "name": "Wall Clock",
       "image": "/products/WallClock'6.png",
       "description": "",
-      "categoryId": 3
+      "categoryId": "3"
     },
     {
       "id": 15,
       "name": "Wall Clock",
       "image": "/products/WallClock'7.png",
       "description": "",
-      "categoryId": 3
+      "categoryId": "3"
     }
   ],
 
   "categories": [
     {
-      "categoryId": 1,
-      "name": "Table"
+      "categoryId": "1",
+      "name": "Tables",
+      "image": "/products/Table3.jpg"
     },
     {
-      "categoryId": 2,
-      "name": "ChessBoard"
+      "categoryId": "2",
+      "name": "Chess Boards",
+      "image": "/products/chessboard1.png"
     },
     {
-      "categoryId": 3,
-      "name": "WallClock"
+      "categoryId": "3",
+      "name": "Wall Clocks",
+      "image": "/products/WallClock1.png"
     },
     {
-      "categoryId": 4,
-      "name": "Bar"
+      "categoryId": "4",
+      "name": "Bars",
+      "image": "/products/bar1.jpg"
     },
     {
-      "categoryId": 5,
-      "name": "Tray"
+      "categoryId": "5",
+      "name": "Trays",
+      "image": "/products/Tray1.JPG"
     }
   ],
   "shapes": [

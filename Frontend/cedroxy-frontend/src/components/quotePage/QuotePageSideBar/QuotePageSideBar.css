@@ -1,0 +1,35 @@
+.mySidenav {
+  position: absolute;
+  left: -118px;
+  padding: 17px;
+}
+
+.mySidenav div {
+  left: 0;
+  background-color: rgb(
+    27,
+    27,
+    27
+  ); /* On mouse-over, make the elements appear as they should */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: beige; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  margin-top: 16px;
+}
+
+.test {
+  margin-left: 100px;
+}
+
+.mySidenav div:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  margin-left: 100px;
+  cursor: pointer;
+}
+.mySidenav div:focus {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+  margin-left: 100px;
+}

@@ -1,11 +1,11 @@
-.products-container {
+.category-container {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   margin: 28px;
   flex-wrap: wrap;
 }
-.products-components {
+.category-components {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -34,13 +34,4 @@ h2:before {
 h2:after {
   left: 0.5em;
   margin-right: -50%;
-}
-.see-more-products {
-  display: flex;
-  justify-content: flex-end;
-}
-.see-more-products:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: rgb(27, 27, 27);
 }

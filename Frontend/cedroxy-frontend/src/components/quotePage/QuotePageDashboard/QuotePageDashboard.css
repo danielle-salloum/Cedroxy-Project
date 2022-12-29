@@ -1,0 +1,11 @@
+.quote-dashboard {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+  margin-top: 63px;
+}
+
+.main-grid {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+}

@@ -17,17 +17,16 @@ function ShopPageSideBar() {
   //show more:
   // const [isShowMore, setIsShowMore] = useState(true);
 
-  //maintain hover on click:
   return (
     <div className="mySidenav">
-      <div
+      {/* <div
         className={
           test === 1 ? "side-bar-categories" : "side-bar-categories test"
         }
         onClick={() => navigate(`/shop`)}
       >
         Shop
-      </div>
+      </div> */}
       {categoryList && categoryList.length > 0
         ? categoryList.map((category: any, index: any) => (
             <div
