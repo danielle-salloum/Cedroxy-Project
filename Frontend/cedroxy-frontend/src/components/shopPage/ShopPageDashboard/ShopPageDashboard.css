@@ -4,5 +4,6 @@
   flex-wrap: wrap;
   margin-left: 130px;
   margin-top: 63px;
+  align-items: center;
   background-color: beige;
 }

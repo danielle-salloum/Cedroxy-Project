@@ -18,6 +18,7 @@ import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const navigate = useNavigate();
+
   return (
     <div className="header-container">
       {/* LOGO */}
@@ -34,11 +35,14 @@ function Header() {
             <li className="menu-item" onClick={() => navigate("/")}>
               Home
             </li>
-            <li className="menu-item" onClick={() => navigate("/shop")}>
+            <li className="menu-item">
               <ShopMenu />
             </li>
             <li className="menu-item" onClick={() => navigate("/quote")}>
               Quote
+            </li>
+            <li className="menu-item" onClick={() => navigate("/events")}>
+              Events
             </li>
             <li className="menu-item">
               <HashLink className="menu-item-link" to="/#aboutus">
@@ -49,13 +53,6 @@ function Header() {
         </div>
         {/* Social media */}
         <div className="header-social-media-icons">
-          <a target="_blank" rel="noreferrer" href="tel:+96176432922 ">
-            <img
-              className="social-media-wtsp-logo"
-              src={WaIcon}
-              alt="WhatsApp"
-            />
-          </a>
           <a
             target="_blank"
             rel="noreferrer"

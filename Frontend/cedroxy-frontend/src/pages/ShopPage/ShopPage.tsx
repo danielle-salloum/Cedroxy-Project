@@ -8,6 +8,7 @@ import ShopPageDashboard from "../../components/shopPage/ShopPageDashboard/ShopP
 
 //Hooks
 import { useEffect } from "react";
+import ShopPageTitle from "../../components/shopPage/ShopPageTitle/ShopPageTitle";
 
 function ShopPage() {
   //to open on top of the page
@@ -27,9 +28,12 @@ function ShopPage() {
   return (
     <div>
       <Header />
-      <div className="shop-page-container">
-        <ShopPageDashboard />
-        <ShopPageSideBar />
+      <div>
+        <ShopPageTitle />
+        <div className="shop-page-container">
+          <ShopPageDashboard />
+          <ShopPageSideBar />
+        </div>
       </div>
       <Foot />
     </div>

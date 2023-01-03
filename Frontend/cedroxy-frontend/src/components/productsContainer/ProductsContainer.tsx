@@ -26,7 +26,7 @@ function ProductsContainer() {
                 <ProductsComponent
                   key={index}
                   name={category.name}
-                  image={category.image}
+                  image={category.image[0]}
                 />
               </div>
             );

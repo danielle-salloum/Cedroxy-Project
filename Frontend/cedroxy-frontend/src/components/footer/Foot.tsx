@@ -48,9 +48,6 @@ function Foot() {
       <div className="social-media-footer">
         <p className="Foot-social-media-title">Social Media</p>
         <div className="social-media-icons">
-          <a target="_blank" rel="noreferrer" href="tel:+96176432922 ">
-            <img className="social-media-logo" src={WaIcon} alt="WhatsApp" />
-          </a>
           <a
             target="_blank"
             rel="noreferrer"

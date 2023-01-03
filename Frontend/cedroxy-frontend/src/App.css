@@ -9,3 +9,9 @@
     width: 974px;
   }
 }
+@media only screen and (max-width: 1080px) {
+  .app-container {
+    background-color: beige;
+    width: 1135px;
+  }
+}

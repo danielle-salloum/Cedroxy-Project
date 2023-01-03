@@ -54,9 +54,19 @@
 }
 .social-media-wtsp-logo {
   width: 26px;
+  margin-top: 2px;
 }
 
 /* Media */
 
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 1080px) {
+  .cedroxy-header-logo {
+    width: 13vh;
+  }
+  .menu-item {
+    padding: 10px 20px;
+    font-size: 29px;
+    color: beige;
+    font-family: "PT Serif", serif;
+  }
 }

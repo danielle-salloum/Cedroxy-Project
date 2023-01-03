@@ -53,3 +53,14 @@
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+@media only screen and (max-width: 1080px) {
+  .dropbtn {
+    background-color: rgb(27, 27, 27);
+    color: beige;
+    padding: 16px;
+    font-size: 29px;
+    border: none;
+    font-family: "PT Serif", serif;
+    margin-top: -25px;
+  }
+}

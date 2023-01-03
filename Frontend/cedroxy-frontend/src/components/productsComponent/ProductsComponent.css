@@ -11,8 +11,8 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .product-component-image {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
 }
 .product-component-name {
   font-size: large;
@@ -22,4 +22,12 @@
 .product-component-description {
   width: 300px;
   text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  .product-component-image {
+    width: 310px;
+    height: 310px;
+    margin-right: 5px;
+  }
 }

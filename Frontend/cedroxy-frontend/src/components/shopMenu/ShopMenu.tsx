@@ -4,10 +4,10 @@ import "./ShopMenu.css";
 import data from "../../Data.json";
 
 //Material UI
-import { Menu, MenuItem } from "@mui/material";
+import { MenuItem } from "@mui/material";
 
 //Navigate
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 
 function ShopMenu() {
   //navigation
@@ -15,21 +15,22 @@ function ShopMenu() {
 
   //get categories
   const categoryList = data.categories;
-  console.log("category list: ", categoryList);
+  // console.log("category list: ", categoryList);
   return (
     <div className="dropdown">
-      <button className="dropbtn">
+      <div className="dropbtn" onClick={() => navigate("/shop")}>
         Shop
         <i className="arrow"></i>
-      </button>
+      </div>
       <div className="dropdown-content">
         {categoryList && categoryList.length > 0
           ? categoryList.map((category: any, index: any) => (
               <MenuItem
                 key={index}
                 className="dropdown-menu-item"
-                //onClick={() => navigate(`/shop/${category.categoryId}`)}
-                onClick={() => console.log(`/shop/${category.categoryId}`)}
+                onClick={() => {
+                  navigate(`/shop/${category.categoryId}`);
+                }}
               >
                 {category.name}
               </MenuItem>
