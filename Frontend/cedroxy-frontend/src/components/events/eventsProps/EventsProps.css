@@ -1,0 +1,42 @@
+.events-props-container {
+  display: flex;
+  border: 2px black solid;
+  margin-bottom: 28px;
+  transition: transform 0.2s;
+}
+.events-props-container:hover {
+  transform: scale(
+    1.02505125
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* background-color: aliceblue; */
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-component-image {
+  height: 300px;
+  margin: 10px;
+}
+
+.event-component-description {
+  text-align: center;
+  padding: 10px;
+}
+
+.event-component-name {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.event-component-date {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+  margin-right: 9px;
+}

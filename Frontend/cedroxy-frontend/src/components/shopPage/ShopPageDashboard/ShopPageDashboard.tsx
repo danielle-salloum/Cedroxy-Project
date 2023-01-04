@@ -29,24 +29,34 @@ function ShopPageDashboard() {
       {categoryId != null
         ? filtered && filtered.length > 0
           ? filtered.map((filtered_product: any, index: any) => (
-              <div onClick={() => navigate(`/description`)}>
+              <div
+                key={index}
+                onClick={() =>
+                  navigate(
+                    `/shop/${filtered_product.categoryId}/${filtered_product.id}`
+                  )
+                }
+              >
                 <ProductsComponent
-                  key={index}
                   name={filtered_product.name}
                   description={filtered_product.description}
-                  image={filtered_product.image[0]}
+                  image={filtered_product.images[0]}
                 />
               </div>
             ))
           : "No Products Found"
         : productsList && productsList.length > 0
         ? productsList.map((product: any, index: any) => (
-            <div onClick={() => navigate(`/description`)}>
+            <div
+              key={index}
+              onClick={() =>
+                navigate(`/shop/${product.categoryId}/${product.id}`)
+              }
+            >
               <ProductsComponent
-                key={index}
                 name={product.name}
                 description={product.description}
-                image={product.image[0]}
+                image={product.images[0]}
               />
             </div>
           ))

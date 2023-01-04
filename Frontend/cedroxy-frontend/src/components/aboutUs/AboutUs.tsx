@@ -20,7 +20,7 @@ function AboutUs() {
           field, to be the pioneers in the production, manufacturing and
           environmental specificities of the resin. Our project started as a
           dream that is now becoming reality. Cedroxy will be reflecting, in
-          each unique piece, Lebanon’s beauty using different species of trees
+          each unique piece, Lebanese beauty using different species of trees
           that grow around this region.
         </div>
       </div>

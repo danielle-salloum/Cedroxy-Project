@@ -44,11 +44,11 @@ function Header() {
             <li className="menu-item" onClick={() => navigate("/events")}>
               Events
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <HashLink className="menu-item-link" to="/#aboutus">
                 About Us
               </HashLink>
-            </li>
+            </li> */}
           </ul>
         </div>
         {/* Social media */}

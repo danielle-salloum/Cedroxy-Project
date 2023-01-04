@@ -19,7 +19,7 @@ function ShopPageTitle() {
       {categoryId != null
         ? filtered_categories && filtered_categories.length > 0
           ? filtered_categories.map((filtered_category: any, index: any) => (
-              <div>{filtered_category.name}</div>
+              <div key={index}>{filtered_category.name}</div>
             ))
           : "All Products"
         : "All Products"}

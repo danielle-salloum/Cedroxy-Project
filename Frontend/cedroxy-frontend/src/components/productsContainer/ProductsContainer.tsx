@@ -20,6 +20,7 @@ function ProductsContainer() {
           categoryList.map((category: any, index: number) => {
             return (
               <div
+                key={index}
                 className="category"
                 onClick={() => navigate(`/shop/${category.categoryId}`)}
               >

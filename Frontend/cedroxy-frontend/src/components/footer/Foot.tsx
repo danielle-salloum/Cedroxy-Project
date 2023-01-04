@@ -84,7 +84,9 @@ function Foot() {
             <img className="social-media-logo" src={TiktokIcon} alt="Tiktok" />
           </a>
         </div>
-        <FloatingWhatsapp />
+        <div className="floating-whatsapp">
+          <FloatingWhatsapp />
+        </div>
       </div>
     </div>
   );

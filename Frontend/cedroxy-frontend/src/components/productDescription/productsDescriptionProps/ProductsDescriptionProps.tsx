@@ -3,7 +3,7 @@ import "./ProductsDescriptionProps.css";
 
 //props
 type ProductDescriptionProps = {
-  image: any;
+  images: any;
   name: string;
   description: string;
 };
@@ -12,10 +12,21 @@ function ProductsDescriptionProps(props: ProductDescriptionProps) {
   return (
     <div className="product-des-props-container">
       <div>
+        {/*   {props.images.map((image: any, index: any) => (
+         {  image_array =<img
+                src={image[index]}
+                className="products-image"
+                title={props.name}
+                alt={props.name}
+              /> };
+          <ImageGallery
+            items={image_array}
+          />
+        ))} */}
         <img
+          src={props.images[0]}
           className="products-image"
           title={props.name}
-          src={props.image}
           alt={props.name}
         />
         <p className="products-name">{props.name}</p>
