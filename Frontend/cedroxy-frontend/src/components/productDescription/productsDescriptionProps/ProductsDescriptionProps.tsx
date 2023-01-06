@@ -24,7 +24,7 @@ function ProductsDescriptionProps(props: ProductDescriptionProps) {
           />
         ))} */}
         <img
-          src={props.images[0]}
+          src={props.images}
           className="products-image"
           title={props.name}
           alt={props.name}

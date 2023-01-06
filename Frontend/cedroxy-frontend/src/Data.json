@@ -3,112 +3,105 @@
     {
       "id": 1,
       "name": "Tray",
-      "images": ["/products/tray/Tray1.1.jpg", "/products/tray/Tray1.2.jpg"],
+      "images": "/products/tray/Tray1.1.jpg",
       "description": "",
       "categoryId": 5
     },
     {
       "id": 2,
       "name": "Chess Board",
-      "images": ["/products/chessboard/chessboard1.png"],
+      "images": "/products/chessboard/chessboard1.png",
       "description": "",
       "categoryId": 2
     },
     {
       "id": 3,
       "name": "Bar",
-      "images": ["/products/bar/bar1.png"],
+      "images": "/products/bar/bar1.png",
       "description": "",
       "categoryId": 4
     },
     {
       " id": 4,
       "name": "Table",
-      "images": ["/products/table/Table1.jpg"],
+      "images": "/products/table/Table1.jpg",
       "description": "",
       "categoryId": 1
     },
     {
       "id": 5,
       "name": "Table",
-      "images": ["/products/table/Table2.jpg"],
+      "images": "/products/table/Table2.jpg",
       "description": "",
       "categoryId": 1
     },
     {
       "id": 6,
       "name": "Table",
-      "images": [
-        "/products/table/Table3.1.png",
-        "/products/table/Table3.2.png",
-        "/products/table/Table3.3.png",
-        "/products/table/Table3.4.png",
-        "/products/table/Table3.5.png"
-      ],
-
+      "images": "/products/table/Table3.1.png",
       "description": "",
       "categoryId": 1
     },
     {
       "id": 7,
       "name": "Table",
-      "images": ["/products/table/Table4.png"],
+      "images": "/products/table/Table4.png",
       "description": "",
       "categoryId": 1
     },
     {
       "id": 8,
       "name": "Table",
-      "images": ["/products/table/Table5.png"],
+      "images": "/products/table/Table5.png",
       "description": "",
       "categoryId": 1
     },
     {
       "id": 9,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock1.png"],
+      "images": "/products/wallclock/WallClock1.png",
       "description": "",
       "categoryId": 3
     },
     {
       "id": 10,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock2.png"],
+      "images": "/products/wallclock/WallClock2.png",
       "description": "",
       "categoryId": 3
     },
     {
       "id": 11,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock3.png"],
+      "images": "/products/wallclock/WallClock3.png",
       "description": "",
       "categoryId": 3
     },
     {
       "id": 12,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock4.png"],
+      "images": "/products/wallclock/WallClock4.png",
       "description": "",
       "categoryId": 3
     },
     {
       "id": 13,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock5.png"],
+      "images": "/products/wallclock/WallClock5.png",
       "description": "",
       "categoryId": 3
     },
     {
       "id": 14,
       "name": "Wall Clock",
-      "images": ["/products/wallclock/WallClock'6.png"],
+      "images": "/products/wallclock/WallClock'6.png",
       "description": "",
       "categoryId": "3"
     },
     {
       "id": 15,
       "name": "Wall Clock",
-      "image": ["/products/wallclock/WallClock'7.png"],
+      "images": "/products/wallclock/WallClock'7.png",
       "description": "",
       "categoryId": "3"
     }
@@ -118,27 +111,27 @@
     {
       "categoryId": "1",
       "name": "Tables",
-      "image": ["/products/table/Table3.1.png"]
+      "image": "/products/table/Table3.1.png"
     },
     {
       "categoryId": "2",
       "name": "Chess Boards",
-      "image": ["/products/chessboard/chessboard1.png"]
+      "image": "/products/chessboard/chessboard1.png"
     },
     {
       "categoryId": "3",
       "name": "Wall Clocks",
-      "image": ["/products/wallclock/WallClock1.png"]
+      "image": "/products/wallclock/WallClock1.png"
     },
     {
       "categoryId": "4",
       "name": "Bars",
-      "image": ["/products/bar/bar1.png"]
+      "image": "/products/bar/bar1.png"
     },
     {
       "categoryId": "5",
       "name": "Trays",
-      "image": ["/products/tray/Tray1.1.jpg"]
+      "image": "/products/tray/Tray1.1.jpg"
     }
   ],
   "shapes": [

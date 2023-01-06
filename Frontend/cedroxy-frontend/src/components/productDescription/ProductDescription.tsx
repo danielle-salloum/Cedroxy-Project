@@ -16,7 +16,6 @@ import { useParams } from "react-router";
 import data from "../../Data.json";
 
 function ProductDescription() {
-  const array = [{ picture }];
   //get
   //all products
   const productsList = data.products;
@@ -43,7 +42,7 @@ function ProductDescription() {
           />
         ))} */}
           <ProductsDescriptionProps
-            images={array}
+            images={picture}
             name="name"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus erat, rutrum sit amet porta nec, mattis sed diam. Integer sit amet sapien id risus lacinia euismod. Proin ut nisl blandit, egestas nibh vel, egestas libero. Suspendisse potenti. Fusce eu sodales mi. Nam scelerisque dignissim diam, non interdum arcu consectetur a. Etiam sit amet cursus ex, vel molestie nibh. Sed ut mauris id nulla accumsan eleifend maximus in nisi. Mauris sit amet congue nisl. Curabitur sit amet condimentum sem. Mauris placerat porta dolor eu accumsan. Nam ac placerat lorem."
           />

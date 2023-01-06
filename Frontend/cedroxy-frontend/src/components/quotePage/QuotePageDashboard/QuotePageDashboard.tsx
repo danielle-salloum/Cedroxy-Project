@@ -178,9 +178,9 @@ function QuotePageDashboard() {
       {/* selected product */}
       {urlcategoryId != null ? (
         filtered ? (
-          <ProductsComponent name={filtered.name} image={filtered.image[0]} />
+          <ProductsComponent name={filtered.name} images={filtered.image[0]} />
         ) : (
-          <ProductsComponent name="Choose Your Category" image={logo} />
+          <ProductsComponent name="Choose Your Category" images={logo} />
         )
       ) : (
         "No Categories Found"

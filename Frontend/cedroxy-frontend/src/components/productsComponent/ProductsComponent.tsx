@@ -2,7 +2,7 @@ import "./ProductsComponent.css";
 
 //props
 type ProductPropsType = {
-  image: any;
+  images: any;
   name: string;
   description?: string;
   category?: string;
@@ -14,7 +14,7 @@ function ProductsComponent(props: ProductPropsType) {
       <img
         className="product-component-image"
         title={props.name}
-        src={props.image}
+        src={props.images}
         alt={props.name}
       />
       <div>
