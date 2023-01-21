@@ -1,4 +1,3 @@
-import React from "react";
 import "./ShopPageTitle.css";
 
 //data
@@ -12,7 +11,7 @@ function ShopPageTitle() {
   //get id from url
   let { categoryId } = useParams();
   const filtered_categories = categoryList.filter(
-    (category: any, index: any) => category.categoryId == categoryId
+    (category: any, index: any) => category.categoryId === categoryId
   );
   return (
     <div className="shop-page-dashboard-title">

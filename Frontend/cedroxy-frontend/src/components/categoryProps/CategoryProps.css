@@ -1,0 +1,33 @@
+.category-component-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: transparent;
+  width: 320px;
+  height: 410px;
+}
+/* .category-component-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(140, 140, 140, 0.2),
+    0 6px 20px 0 rgba(140, 140, 140, 0.19);
+  cursor: pointer;
+} */
+
+.category-component-image {
+  width: 320px;
+  height: 320px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+.category-component-name {
+  font-size: larger;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(140, 140, 140);
+}
+.category-component-description {
+  width: 300px;
+  text-align: center;
+}

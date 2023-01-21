@@ -20,7 +20,7 @@ function ShopMenu() {
     <div className="dropdown">
       <div className="dropbtn" onClick={() => navigate("/shop")}>
         Shop
-        <i className="arrow"></i>
+        <div className="arrow">{">"}</div>
       </div>
       <div className="dropdown-content">
         {categoryList && categoryList.length > 0

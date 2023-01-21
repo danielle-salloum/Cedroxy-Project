@@ -9,9 +9,7 @@ import Events from "../../components/events/Events";
 function EventsPage() {
   return (
     <div>
-      <Header />
       <Events />
-      <Foot />
     </div>
   );
 }

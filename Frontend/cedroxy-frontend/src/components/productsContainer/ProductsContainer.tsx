@@ -14,7 +14,9 @@ function ProductsContainer() {
   const navigate = useNavigate();
   return (
     <div className="category-container">
-      <h2 className="category-header"> Shop </h2>
+      <div className="category-title">
+        <h2 className="category-header"> Collection </h2>
+      </div>
       <div className="category-components">
         {categoryList.length > 0 &&
           categoryList.map((category: any, index: number) => {
@@ -27,7 +29,7 @@ function ProductsContainer() {
                 <ProductsComponent
                   key={index}
                   name={category.name}
-                  images={category.image}
+                  images={category.image[0]}
                 />
               </div>
             );

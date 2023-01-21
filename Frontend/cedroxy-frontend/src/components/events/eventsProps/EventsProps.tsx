@@ -3,7 +3,7 @@ import "./EventsProps.css";
 
 //props
 type EventsCardProps = {
-  id: number;
+  id?: number;
   title: string;
   date: string;
   description: string;

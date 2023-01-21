@@ -1,0 +1,21 @@
+/* .product-des-container {
+  margin-top: 20px;
+  margin-bottom: 135px;
+} */
+.product-des-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(220, 220, 220, 0.454);
+}
+.product-des-side-bar {
+  margin-bottom: 60px;
+}
+/* Media Query */
+@media only screen and (max-width: 408px) {
+  .product-des-container {
+    height: 1480px;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./QuotePageSideBar.css";
 //data
 import data from "../../../Data.json";
 
@@ -15,7 +15,7 @@ function QuotePageSideBar() {
   const categoryList = data.categories;
 
   return (
-    <div className="mySidenav">
+    <div className="quoteSidenav">
       {categoryList && categoryList.length > 0
         ? categoryList.map((category: any, index: any) => (
             <div

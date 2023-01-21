@@ -8,10 +8,8 @@ import QuotePageDashboard from "../../components/quotePage/QuotePageDashboard/Qu
 function QuotePage() {
   return (
     <div className="quote-page-container">
-      <Header />
       <QuotePageSideBar />
       <QuotePageDashboard />
-      <Foot />
     </div>
   );
 }

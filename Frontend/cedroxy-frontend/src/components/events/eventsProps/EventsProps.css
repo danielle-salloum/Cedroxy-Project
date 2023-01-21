@@ -1,14 +1,12 @@
 .events-props-container {
   display: flex;
-  border: 2px black solid;
+  border: 2px rgb(140, 140, 140) solid;
   margin-bottom: 28px;
   transition: transform 0.2s;
+  align-items: center;
 }
 .events-props-container:hover {
-  transform: scale(
-    1.02505125
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  /* background-color: aliceblue; */
+  transform: scale(1.02505125);
 }
 
 .event-info {
@@ -19,24 +17,37 @@
 
 .event-component-image {
   height: 300px;
+  width: 300px;
+  object-fit: cover;
   margin: 10px;
 }
 
 .event-component-description {
   text-align: center;
   padding: 10px;
+  color: rgb(140, 140, 140);
 }
 
 .event-component-name {
   text-align: center;
   font-weight: bolder;
   font-size: 22px;
+  color: rgb(140, 140, 140);
 }
-
 .event-component-date {
   text-align: center;
   display: flex;
   justify-content: flex-end;
   margin-top: -20px;
   margin-right: 9px;
+  color: rgb(140, 140, 140);
+}
+/* Media Query */
+@media only screen and (max-width: 408px) {
+  .event-component-description {
+    font-size: 20px;
+  }
+  .event-component-name {
+    font-size: 28px;
+  }
 }

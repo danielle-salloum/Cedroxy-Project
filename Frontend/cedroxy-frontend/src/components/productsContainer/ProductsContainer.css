@@ -1,23 +1,43 @@
 .category-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
   margin: 28px;
+  display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .category-components {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 h2 {
+  font-size: 30px;
   overflow: hidden;
   text-align: center;
 }
-
+.line {
+  height: 2px;
+  width: 210px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-color: rgb(140, 140, 140);
+}
+.cateory-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.category-header {
+  font-size: 50px;
+  margin-top: -1px;
+  font-weight: lighter;
+  font-family: "Dancing Script";
+  color: rgb(140, 140, 140, 0.8);
+}
+/* 
 h2:before,
 h2:after {
-  background-color: #000;
+  background-color: rgb(140, 140, 140);
   content: "";
   display: inline-block;
   height: 1px;
@@ -34,4 +54,4 @@ h2:before {
 h2:after {
   left: 0.5em;
   margin-right: -50%;
-}
+} */

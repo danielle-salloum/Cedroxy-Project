@@ -1,11 +1,233 @@
+.quote-dashboard-container {
+  margin-left: 100px;
+}
 .quote-dashboard {
   display: flex;
-  align-items: center;
-  margin-left: 130px;
   margin-top: 63px;
+  flex-wrap: nowrap;
+  margin-left: 35px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
-
-.main-grid {
+.category-des-container {
+  display: flex;
+}
+/* .main-grid {
   margin-top: 10px !important;
   margin-left: 10px !important;
+} */
+
+/* category selected */
+.category-des {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(140, 140, 140);
+}
+.category-des-paragraph {
+  padding: 50px;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(140, 140, 140);
+}
+
+/* price section */
+.price-calculate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price {
+  display: flex;
+  margin-left: 2px;
+  margin-top: 7px;
+  align-items: center;
+}
+.cal-button {
+  margin-left: 70px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+}
+.cal-button:active,
+.cal-button:hover {
+  cursor: pointer;
+  margin-left: 70px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 1px rgb(140, 140, 140) solid;
+}
+.price-section {
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+}
+
+/* Form */
+.form {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+/*Text fields */
+.shape-section {
+  width: 200px;
+  height: 35px;
+  margin-right: 220px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.shape-section:focus {
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.text-fields {
+  margin-top: 15px;
+}
+.inputs {
+  margin-right: 25px;
+}
+.height-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.length-section {
+  margin: 3px;
+  height: 20px;
+  width: 200px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.width-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.diameter-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.category-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Media Query */
+@media only screen and (max-width: 408px) {
+  .category-des-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .quote-dashboard {
+    margin-left: 0px;
+  }
+  .category-des-paragraph {
+    font-size: 30px;
+  }
+  .shape-section {
+    width: 200px;
+    height: 35px;
+    margin-right: 75px;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    border: 2px rgb(140, 140, 140) solid;
+  }
+  .quote-dashboard-container {
+    height: 2102px;
+  }
+  .height-section {
+    height: 40px;
+  }
+  .length-section {
+    height: 40px;
+  }
+  .width-section {
+    height: 40px;
+  }
+  .diameter-section {
+    height: 40px;
+  }
+  .price-section {
+    height: 40px;
+  }
+  .cal-button {
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .quote-dashboard-container {
+    height: 2102px;
+  }
+  .category-des-container {
+    height: 1840px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .category-des-paragraph {
+    font-size: 30px;
+  }
+  .shape-section {
+    width: 200px;
+    height: 35px;
+    margin-right: 75px;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    border: 2px rgb(140, 140, 140) solid;
+  }
+
+  .height-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .length-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .width-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .diameter-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .price-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .cal-button {
+    height: 25px;
+  }
+}
+@media only screen and (max-width: 1441px) {
+  .quote-dashboard-container {
+    height: 1220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .category-des-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }

@@ -27,15 +27,11 @@ function ShopPage() {
 
   return (
     <div>
-      <Header />
-      <div>
-        <ShopPageTitle />
-        <div className="shop-page-container">
-          <ShopPageDashboard />
-          <ShopPageSideBar />
-        </div>
+      <ShopPageTitle />
+      <div className="shop-page-container">
+        <ShopPageDashboard />
+        <ShopPageSideBar />
       </div>
-      <Foot />
     </div>
   );
 }

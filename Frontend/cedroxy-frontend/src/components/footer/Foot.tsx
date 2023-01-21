@@ -3,13 +3,12 @@ import "./Foot.css";
 //logos
 import LocationIcon from "../../assets/location.png";
 import CedroxyLogo from "../../assets/CedroxyLogo.png";
-import WaIcon from "../../assets/socialmedia/wtsp.png";
 import EmIcon from "../../assets/socialmedia/email.png";
 import YtIcon from "../../assets/socialmedia/YouTube.png";
 import FbIcon from "../../assets/socialmedia/facebook.png";
 import IgIcon from "../../assets/socialmedia/instagram.png";
 import TiktokIcon from "../../assets/socialmedia/tiktok.png";
-import FloatingWhatsapp from "../../pages/FloatingWhatsapp/FloatingWhatsapp";
+import WAIcon from "../../assets/socialmedia/wtsp.png";
 
 function Foot() {
   return (
@@ -21,7 +20,7 @@ function Foot() {
             className="location-title"
             target="_blank"
             rel="noreferrer"
-            href="https://maps.app.goo.gl/pxsuyMpotPyAq2yd8"
+            href="https://goo.gl/maps/fUnVzcNMWAmwfL7i6"
           >
             <div className="location">
               <img src={LocationIcon} className="location-pic" alt="Location" />
@@ -30,8 +29,7 @@ function Foot() {
           </a>
 
           <li className="location-list">Cedroxy Atelier</li>
-          <li className="location-list">Barouk</li>
-          <li className="location-list">El-Chouf</li>
+          <li className="location-list">Barouk El-Chouf</li>
           <li className="location-list">Mount Lebanon</li>
           <li className="location-list">
             <a className="footer-info" href="tel:+96176432922">
@@ -54,6 +52,13 @@ function Foot() {
             href="https://instagram.com/cedroxy?igshid=ZmRlMzRkMDU="
           >
             <img className="social-media-logo" src={IgIcon} alt="Instagram" />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://instagram.com/cedroxy?igshid=ZmRlMzRkMDU="
+          >
+            <img className="social-media-logo" src={WAIcon} alt="WhatsApp" />
           </a>
           <a
             target="_blank"
@@ -83,9 +88,6 @@ function Foot() {
           >
             <img className="social-media-logo" src={TiktokIcon} alt="Tiktok" />
           </a>
-        </div>
-        <div className="floating-whatsapp">
-          <FloatingWhatsapp />
         </div>
       </div>
     </div>

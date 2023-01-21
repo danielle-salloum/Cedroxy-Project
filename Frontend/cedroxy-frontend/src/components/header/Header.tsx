@@ -5,16 +5,16 @@ import ShopMenu from "../shopMenu/ShopMenu";
 
 //logos
 import CedroxyLogo from "../../assets/CedroxyLogo.png";
-import WaIcon from "../../assets/socialmedia/wtsp.png";
-import EmIcon from "../../assets/socialmedia/email.png";
-import YtIcon from "../../assets/socialmedia/YouTube.png";
-import FbIcon from "../../assets/socialmedia/facebook.png";
-import IgIcon from "../../assets/socialmedia/instagram.png";
-import TiktokIcon from "../../assets/socialmedia/tiktok.png";
+//import WaIcon from "../../assets/socialmedia/wtsp.png";
+// import EmIcon from "../../assets/socialmedia/email.png";
+// import YtIcon from "../../assets/socialmedia/YouTube.png";
+// import FbIcon from "../../assets/socialmedia/facebook.png";
+// import IgIcon from "../../assets/socialmedia/instagram.png";
+// import TiktokIcon from "../../assets/socialmedia/tiktok.png";
 
 //Navigate
 import { useNavigate } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const navigate = useNavigate();
@@ -22,12 +22,14 @@ function Header() {
   return (
     <div className="header-container">
       {/* LOGO */}
-      <img
-        onClick={() => navigate("/")}
-        className="cedroxy-header-logo"
-        src={CedroxyLogo}
-        alt="No logo Is Found"
-      />
+      <div className="cedroxy-logo">
+        <img
+          onClick={() => navigate("/")}
+          className="cedroxy-header-logo"
+          src={CedroxyLogo}
+          alt="No logo Is Found"
+        />
+      </div>
       {/* MENU */}
       <div className="header-menu">
         <div className="header-list-menu">
@@ -44,15 +46,13 @@ function Header() {
             <li className="menu-item" onClick={() => navigate("/events")}>
               Events
             </li>
-            {/* <li className="menu-item">
-              <HashLink className="menu-item-link" to="/#aboutus">
-                About Us
-              </HashLink>
-            </li> */}
+            <li className="menu-item" onClick={() => navigate("/about-us")}>
+              About Us
+            </li>
           </ul>
         </div>
         {/* Social media */}
-        <div className="header-social-media-icons">
+        {/* <div className="header-social-media-icons">
           <a
             target="_blank"
             rel="noreferrer"
@@ -88,7 +88,7 @@ function Header() {
           >
             <img className="social-media-logo" src={TiktokIcon} alt="Tiktok" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

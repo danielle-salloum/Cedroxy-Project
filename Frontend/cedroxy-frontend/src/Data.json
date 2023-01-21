@@ -2,107 +2,160 @@
   "products": [
     {
       "id": 1,
-      "name": "Tray",
-      "images": "/products/tray/Tray1.1.jpg",
-      "description": "",
+      "name": "Olive Wood Serving Tray",
+      "images": [
+        "/products/tray/Tray1.1.jpg",
+        "/products/tray/Tray1.2.jpg",
+        "/products/tray/Tray1.3.jpg"
+      ],
+      "description": "Epoxy Resin Olive Wood 60 cm Serving Tray",
       "categoryId": 5
     },
     {
       "id": 2,
-      "name": "Chess Board",
-      "images": "/products/chessboard/chessboard1.png",
-      "description": "",
+      "name": "Chessboard Floating with Pine Cones",
+      "images": [
+        "/products/chessboard/ChessBoard1.1.png",
+        "/products/chessboard/ChessBoard1.2.jpg",
+        "/products/chessboard/ChessBoard1.3.jpg",
+        "/products/chessboard/ChessBoard1.4.png"
+      ],
+      "description": "Customized Epoxy Resin Chessboard Floating with Pine Cones",
       "categoryId": 2
     },
     {
       "id": 3,
-      "name": "Bar",
-      "images": "/products/bar/bar1.png",
-      "description": "",
+      "name": "Bar Top made with Black Mica and Olive Wood Islands",
+      "images": ["/products/bar/bar1.png"],
+      "description": "Epoxy resin 80*45 cm Bar Top made with Black Mica and Olive Wood Islands",
       "categoryId": 4
     },
     {
-      " id": 4,
-      "name": "Table",
-      "images": "/products/table/Table1.jpg",
-      "description": "",
-      "categoryId": 1
+      "id": 5,
+      "name": " Blue Eye Stand",
+      "images": [
+        "/products/table/Table2.2.jpg",
+        "/products/table/Table2.1.jpg",
+        "/products/table/Table2.3.jpg",
+        "/products/table/Table2.4.jpg",
+        "/products/table/Table2.5.jpg",
+        "/products/table/Table2.6.jpg"
+      ],
+      "description": "Customized Blue Eye Epoxy Stand",
+      "categoryId": 6
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Table",
-      "images": "/products/table/Table2.jpg",
-      "description": "",
+      "images": [
+        "/products/table/Table1.1.jpg",
+        "/products/table/Table1.2.jpg",
+        "/products/table/Table1.3.jpg",
+        "/products/table/Table1.4.jpg",
+        "/products/table/Table1.5.jpg"
+      ],
+      "description": "Epoxy Resin Pine Cones Epoxy Center Table with Cedar Wood Slab",
       "categoryId": 1
     },
+
     {
       "id": 6,
       "name": "Table",
-      "images": "/products/table/Table3.1.png",
-      "description": "",
+      "images": [
+        "/products/table/Table3.1.png",
+        "/products/table/Table3.2.png",
+        "/products/table/Table3.3.png",
+        "/products/table/Table3.4.png",
+        "/products/table/Table3.5.png"
+      ],
+
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus erat, rutrum sit amet porta nec, mattis sed diam. Integer sit amet sapien id risus lacinia euismod. Proin ut nisl blandit, egestas nibh vel, egestas libero. Suspendisse potenti. Fusce eu sodales mi. Nam scelerisque dignissim diam, non interdum arcu consectetur a. Etiam sit amet cursus ex, vel molestie nibh. Sed ut mauris id nulla accumsan eleifend maximus in nisi. Mauris sit amet congue nisl. Curabitur sit amet condimentum sem. Mauris placerat porta dolor eu accumsan. Nam ac placerat lorem.",
       "categoryId": 1
     },
     {
       "id": 7,
-      "name": "Table",
-      "images": "/products/table/Table4.png",
-      "description": "",
+      "name": "Scorpion Coffee Side Table with Blue Mica Effect",
+      "images": ["/products/table/Table4.png"],
+      "description": "Scorpion Epoxy Coffee Side Table with Blue Mica Effect",
       "categoryId": 1
     },
     {
       "id": 8,
-      "name": "Table",
-      "images": "/products/table/Table5.png",
-      "description": "",
+      "name": "Scorpion Coffee Side Table with Blue Mica Effect",
+      "images": ["/products/table/Table5.jpg"],
+      "description": "Scorpion Epoxy Coffee Side Table with Blue Mica Effect",
       "categoryId": 1
     },
     {
       "id": 9,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock1.png",
-      "description": "",
+      "name": "Wall Clock made with Olive Wood Islands and blue mica ocean effect",
+      "images": [
+        "/products/wallclock/WallClock1.1.png",
+        "/products/wallclock/WallClock1.2.png"
+      ],
+      "description": "Epoxy Resin Giant 80 cm Wall Clock made with Olive Wood Islands and blue mica ocean effect",
       "categoryId": 3
     },
     {
       "id": 10,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock2.png",
-      "description": "",
+      "name": "Olive Wood Smokey Wall Clock",
+      "images": ["/products/wallclock/WallClock2.1.png"],
+      "description": "Epoxy Olive Wood Smokey 45 cm Wall Clock",
       "categoryId": 3
     },
     {
       "id": 11,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock3.png",
-      "description": "",
+      "name": "Walnut Wood And Wine Mica Powder Effect Wall Clock",
+      "images": [
+        "/products/wallclock/WallClock3.1.png",
+        "/products/wallclock/WallClock3.2.png",
+        "/products/wallclock/WallClock3.3.png"
+      ],
+      "description": "Epoxy Resin 45 cm wall Clock made with Walnut Wood and Wine Mica Powder effect",
       "categoryId": 3
     },
     {
       "id": 12,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock4.png",
-      "description": "",
+      "name": "Walnut Wood And A Touch Of Green Mica Wall Clock",
+      "images": [
+        "/products/wallclock/WallClock4.1.png",
+        "/products/wallclock/WallClock4.2.png",
+        "/products/wallclock/WallClock4.3.png",
+        "/products/wallclock/WallClock4.4.png"
+      ],
+      "description": "Epoxy Resin Walnut Wood with a touch of Green Mica 45 cm Wall Clock",
       "categoryId": 3
     },
     {
       "id": 13,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock5.png",
-      "description": "",
+      "name": "Blue River Full Of Pine Cones Wall Clock",
+      "images": [
+        "/products/wallclock/WallClock5.1.png",
+        "/products/wallclock/WallClock5.2.png",
+        "/products/wallclock/WallClock5.3.png",
+        "/products/wallclock/WallClock5.4.png",
+        "/products/wallclock/WallClock5.5.png"
+      ],
+      "description": "Epoxy Resin Blue River full of Pine Cones between Surrounded with Lebanese Walnut Wood 45 cm Wall Clock",
       "categoryId": 3
     },
     {
       "id": 14,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock'6.png",
-      "description": "",
+      "name": "Golden Mica With Walnut Leftover Wood Wall Clock",
+      "images": [
+        "/products/wallclock/WallClock6.1.png",
+        "/products/wallclock/WallClock6.2.png",
+        "/products/wallclock/WallClock6.3.png",
+        "/products/wallclock/WallClock6.4.png"
+      ],
+      "description": "Epoxy Resin 45 cm Golden Mica Wall Clock made with Walnut leftover Wood",
       "categoryId": "3"
     },
     {
       "id": 15,
-      "name": "Wall Clock",
-      "images": "/products/wallclock/WallClock'7.png",
-      "description": "",
+      "name": "Grey Wall Clock",
+      "images": ["/products/wallclock/WallClock7.1.jpg"],
+      "description": "Epoxy Resin 45 cm grey Wall Clock",
       "categoryId": "3"
     }
   ],
@@ -111,27 +164,38 @@
     {
       "categoryId": "1",
       "name": "Tables",
-      "image": "/products/table/Table3.1.png"
+      "image": ["/products/table/Table3.1.png"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
     },
     {
       "categoryId": "2",
       "name": "Chess Boards",
-      "image": "/products/chessboard/chessboard1.png"
+      "image": ["/products/chessboard/ChessBoard1.1.png"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
     },
     {
       "categoryId": "3",
       "name": "Wall Clocks",
-      "image": "/products/wallclock/WallClock1.png"
+      "image": ["/products/wallclock/WallClock1.1.png"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
     },
     {
       "categoryId": "4",
       "name": "Bars",
-      "image": "/products/bar/bar1.png"
+      "image": ["/products/bar/bar1.png"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
     },
     {
       "categoryId": "5",
       "name": "Trays",
-      "image": "/products/tray/Tray1.1.jpg"
+      "image": ["/products/tray/Tray1.1.jpg"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
+    },
+    {
+      "categoryId": "6",
+      "name": "Stands",
+      "image": ["/products/table/Table2.2.jpg"],
+      "description": "Our products are entirely handmade and original. They are made upon client’s request and can therefore be customized accordingly. We use several types of wood from our local region, Chouf Lebanon. We apply a variety of epoxy resin depending on multiple variables. These art pieces are designed ergonomically, to be steady and durable."
     }
   ],
   "shapes": [
@@ -146,25 +210,29 @@
   ],
   "events": [
     {
-      "id": 0,
+      "eventId": 0,
       "title": "France",
       "date": "2019-01-16",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat tincidunt ante quis sagittis. Sed fringilla ligula vel felis dictum, sed suscipit odio lacinia. Fusce aliquam tortor velit, eu feugiat velit placerat a. Proin laoreet a metus non viverra. Pellentesque dignissim erat libero, ut cursus est porta ac. Sed dictum bibendum velit, id faucibus ante maximus quis. Mauris non massa nisl. In justo justo, bibendum non porta vitae, mattis at urna. Integer id turpis in eros laoreet tempor. Aenean felis quam, sodales et tortor nec, tempor tincidunt purus. Nam porta pellentesque felis, ultricies porttitor quam efficitur in. Pellentesque feugiat augue at magna venenatis finibus. Maecenas congue fringilla est ac consequat. Praesent rutrum placerat tempus. Sed semper lacinia mi, a interdum erat viverra quis. Phasellus lacinia eros id gravida egestas.",
-      "images": "/events/slideshow1.JPG"
+      "images": [
+        "/events/slideshow1.JPG",
+        "/events/slideshow4.png",
+        "/events/slideshow3.JPG"
+      ]
     },
     {
-      "id": 1,
+      "eventId": 1,
       "title": "Site Visit",
       "date": "2020-05-16",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat tincidunt ante quis sagittis. Sed fringilla ligula vel felis dictum, sed suscipit odio lacinia. Fusce aliquam tortor velit, eu feugiat velit placerat a. Proin laoreet a metus non viverra. Pellentesque dignissim erat libero, ut cursus est porta ac. Sed dictum bibendum velit, id faucibus ante maximus quis. Mauris non massa nisl. In justo justo, bibendum non porta vitae, mattis at urna. Integer id turpis in eros laoreet tempor. Aenean felis quam, sodales et tortor nec, tempor tincidunt purus. Nam porta pellentesque felis, ultricies porttitor quam efficitur in. Pellentesque feugiat augue at magna venenatis finibus. Maecenas congue fringilla est ac consequat. Praesent rutrum placerat tempus. Sed semper lacinia mi, a interdum erat viverra quis. Phasellus lacinia eros id gravida egestas.",
-      "images": "/events/slideshow3.JPG"
+      "images": ["/events/slideshow3.JPG", "/events/slideshow5.jpg"]
     },
     {
-      "id": 2,
+      "eventId": 2,
       "title": "Epoxy",
       "date": "2021-12-10",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat tincidunt ante quis sagittis. Sed fringilla ligula vel felis dictum, sed suscipit odio lacinia. Fusce aliquam tortor velit, eu feugiat velit placerat a. Proin laoreet a metus non viverra. Pellentesque dignissim erat libero, ut cursus est porta ac. Sed dictum bibendum velit, id faucibus ante maximus quis. Mauris non massa nisl. In justo justo, bibendum non porta vitae, mattis at urna. Integer id turpis in eros laoreet tempor. Aenean felis quam, sodales et tortor nec, tempor tincidunt purus. Nam porta pellentesque felis, ultricies porttitor quam efficitur in. Pellentesque feugiat augue at magna venenatis finibus. Maecenas congue fringilla est ac consequat. Praesent rutrum placerat tempus. Sed semper lacinia mi, a interdum erat viverra quis. Phasellus lacinia eros id gravida egestas.",
-      "images": "/events/slideshow5.jpg"
+      "images": ["/events/slideshow5.jpg"]
     }
   ],
   "slideshow": [

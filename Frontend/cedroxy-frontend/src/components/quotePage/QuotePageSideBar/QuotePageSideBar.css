@@ -1,35 +1,87 @@
-.mySidenav {
-  position: absolute;
+.quoteSidenav {
   left: -118px;
   padding: 17px;
+  position: absolute;
+  margin-top: -45px;
 }
 
-.mySidenav div {
+.quoteSidenav div {
   left: 0;
-  background-color: rgb(
-    27,
-    27,
-    27
-  ); /* On mouse-over, make the elements appear as they should */
-  padding: 15px; /* 15px padding */
-  width: 100px; /* Set a specific width */
-  text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
-  color: beige; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  width: 98px;
+  padding: 15px;
+  font-size: 20px;
   margin-top: 16px;
+  text-decoration: none;
+  border-radius: 0 5px 5px 0;
+  color: rgb(140, 140, 140);
+  background-color: rgb(27, 27, 27);
+}
+.quoteSidenav div:active {
+  margin-left: 100px;
+}
+.quoteSidenav div:hover {
+  cursor: pointer;
+  margin-left: 100px;
 }
 
 .test {
   margin-left: 100px;
 }
 
-.mySidenav div:hover {
+.quoteSidenav div:focus {
   left: 0; /* On mouse-over, make the elements appear as they should */
   margin-left: 100px;
-  cursor: pointer;
 }
-.mySidenav div:focus {
-  left: 0; /* On mouse-over, make the elements appear as they should */
-  margin-left: 100px;
+
+@media only screen and (max-width: 408px) {
+  .quoteSidenav div {
+    width: 94px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 100px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    color: rgb(140, 140, 140);
+    background-color: rgb(27, 27, 27);
+  }
+  .quoteSidenav {
+    left: -190px;
+    padding: 17px;
+    position: absolute;
+    margin-top: -45px;
+  }
+  .quoteSidenav div {
+    width: 125px;
+    padding-left: 25px;
+    margin-left: 106px;
+  }
+  .quoteSidenav div:hover {
+    margin-left: 170px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .quoteSidenav div:hover {
+    margin-left: 149px;
+  }
+  .quoteSidenav div {
+    width: 115px;
+    padding-left: 15px;
+    margin-left: 106px;
+  }
+  .quoteSidenav {
+    left: -176px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .quoteSidenav div {
+    padding-left: 25px;
+  }
+}
+@media only screen and (max-width: 1441px) {
+  .quoteSidenav div {
+    width: 180px;
+    padding: 19px;
+  }
 }

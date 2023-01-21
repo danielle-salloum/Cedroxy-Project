@@ -1,15 +1,19 @@
 .about-us-pic {
-  border-radius: 50%;
-  width: 40vh;
+  width: 50vh;
 }
 .about-us-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin: 28px;
 }
 .about-us-text {
   margin-left: 37px;
+  color: rgb(140, 140, 140);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
 }
 .about-us-header {
   text-align: center;
@@ -17,17 +21,25 @@
 
 /* Media Query */
 @media only screen and (max-width: 408px) {
+  .about-us-pic {
+    width: 100vh;
+  }
+  .about-us-text {
+    font-size: 40px;
+  }
   .about-us-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 28px;
-    width: 920px;
+    height: 1873px;
+    margin-top: 100px;
   }
 }
 @media only screen and (max-width: 1080px) {
   .about-us-pic {
-    border-radius: 50%;
-    width: 16vh;
+    width: 100vh;
+  }
+  .about-us-text {
+    font-size: 40px;
+  }
+  .about-us-container {
+    height: 2110px;
   }
 }
