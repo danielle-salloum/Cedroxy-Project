@@ -32,7 +32,7 @@ function QuotePageDashboard() {
   //GET ID FROM URL
   const urlcategoryId = useParams();
   let { categoryId } = urlcategoryId;
-  console.log(categoryId);
+
   //get from database
   //categories
   const categoryList = data.categories;
@@ -43,7 +43,6 @@ function QuotePageDashboard() {
   const filtered = categoryList.find(
     (category: any) => category.categoryId === categoryId
   );
-  console.log(filtered);
   //MATHEMATICAL ALGORITHM
   function mathematical_algorithm(
     h: string,
@@ -57,17 +56,17 @@ function QuotePageDashboard() {
     let width = Number(w);
     let length = Number(l);
     let diameter = Number(d);
-    let area1 = length * width;
+    //let area1 = length * width;
     let area2 = length * height;
     let price = 15;
-    console.log("shape:", s);
-    console.log("height:", height);
-    console.log("width:", width);
-    console.log("length:", length);
-    console.log("diameter:", diameter);
-    console.log("area1: length * width:", area1);
-    console.log("area2: length * height:", area2);
-    console.log("category: ", c);
+    // console.log("shape:", s);
+    // console.log("height:", height);
+    // console.log("width:", width);
+    // console.log("length:", length);
+    // console.log("diameter:", diameter);
+    // console.log("area1: length * width:", area1);
+    // console.log("area2: length * height:", area2);
+    // console.log("category: ", c);
     if (s === "Circular") {
       //circular
       //F(W)

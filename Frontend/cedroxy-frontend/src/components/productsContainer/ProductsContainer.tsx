@@ -31,6 +31,7 @@ function ProductsContainer() {
                   name={category.name}
                   images={category.image[0]}
                 />
+                <hr className="category-accessory" />
               </div>
             );
           })}

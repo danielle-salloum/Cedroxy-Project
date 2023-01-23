@@ -16,7 +16,7 @@
 .product-component-image {
   width: 320px;
   height: 320px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .product-component-name {
   font-weight: bolder;

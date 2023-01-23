@@ -5,10 +5,15 @@ import data from "../../Data.json";
 
 //hooks
 //import { useParams } from "react-router";
+import { useEffect, useState } from "react";
 
 //components
 import ProductsDescriptionProps from "./productsDescriptionProps/ProductsDescriptionProps";
-import { useEffect, useState } from "react";
+
+//MUI
+import { IconButton } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
+import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
 //props
 type ProductsDescriptionPopupProps = {
   id: any;
@@ -20,6 +25,7 @@ type ProductImageState = {
   images: any;
   description: string;
 };
+
 function ProductDescription(props: ProductsDescriptionPopupProps) {
   // //get all products
   // const productsList = data.products;
@@ -33,14 +39,15 @@ function ProductDescription(props: ProductsDescriptionPopupProps) {
   //   (product: any, index: any) =>
   //     product.categoryId === URLcategoryId && product.id === URLid
   // );
+
   //products filtration
+  const productsList = data["products"];
   const [chosenProduct, setChosenProduct] = useState<ProductImageState>({
     id: "",
     name: "",
     images: [],
     description: "",
   });
-  const productsList = data["products"];
   const getProductById = () => {
     productsList.filter((product: any, index: number) => {
       if (product.id === props.id) {
@@ -51,6 +58,7 @@ function ProductDescription(props: ProductsDescriptionPopupProps) {
   useEffect(() => {
     getProductById();
   });
+
   //local state
   const [productDescriptionPopup, setProductDescriptionPopup] = useState({
     isProductDescriptionPopup: false,
@@ -59,20 +67,41 @@ function ProductDescription(props: ProductsDescriptionPopupProps) {
   const closePopup = () => {
     setProductDescriptionPopup({ isProductDescriptionPopup: false, id: "" });
   };
+
   return (
-    <div className="product-des-container" onClick={props.closePopup}>
-      {productDescriptionPopup.isProductDescriptionPopup ? (
-        <ProductDescription
-          closePopup={closePopup}
-          id={productDescriptionPopup.id}
-        />
-      ) : null}
-      <ProductsDescriptionProps
-        key={chosenProduct.id}
-        images={chosenProduct.images}
-        name={chosenProduct.name}
-        description={chosenProduct.description}
-      />
+    <div className="product-des-container">
+      <div className="product-popup-overlay" onClick={props.closePopup}></div>
+      <div className="product-popup-content">
+        {productDescriptionPopup.isProductDescriptionPopup ? (
+          <ProductDescription
+            closePopup={closePopup}
+            id={productDescriptionPopup.id}
+          />
+        ) : null}
+        <div className="product-image-album-container">
+          <IconButton
+            size="large"
+            title="close icon"
+            onClick={props.closePopup}
+          >
+            <HighlightOffOutlinedIcon
+              sx={{
+                height: "50px",
+                width: "50px",
+                color: "rgb(140,140,140)",
+                marginBottom: "-275px",
+                marginLeft: "503px",
+              }}
+            />
+          </IconButton>
+          <ProductsDescriptionProps
+            key={chosenProduct.id}
+            images={chosenProduct.images}
+            name={chosenProduct.name}
+            description={chosenProduct.description}
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -5,8 +5,8 @@
   background-color: rgba(245, 245, 220, -0.5);
 }
 .products-image {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   object-fit: contain;
 }
 .products-info {
@@ -21,11 +21,11 @@
   margin-bottom: -50px;
   color: rgb(140, 140, 140);
 }
-.carrousel {
+.products-des-carrousel {
   z-index: 0;
   gap: 1.8rem;
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   display: grid;
   overflow-y: auto;
   scroll-behavior: auto;
@@ -36,7 +36,7 @@
   margin-top: 160px;
 }
 
-.carrousel::-webkit-scrollbar {
+.products-des-carrousel::-webkit-scrollbar {
   z-index: 0;
   display: none;
 }

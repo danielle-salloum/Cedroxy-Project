@@ -19,7 +19,6 @@ function ProductsComponent(props: ProductPropsType) {
       />
       <div>
         <p className="product-component-name">{props.name}</p>
-        <hr className="accessory" />
       </div>
     </div>
   );

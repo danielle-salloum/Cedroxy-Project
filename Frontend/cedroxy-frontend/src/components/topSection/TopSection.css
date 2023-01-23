@@ -5,22 +5,12 @@
 }
 .top-section-text {
   /* font-family: "Explora", cursive;
-  font-size: 50px;
-  margin-top: 50px;
-  max-width: 40ch;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-left: 300px;
-  color: rgb(140, 140, 140);
-  transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1); */
+  text-align: center;*/
   font-size: 50px;
   font-weight: lighter;
   margin-top: 50px;
-  max-width: 40ch;
   text-align: center;
   margin-bottom: 40px;
-  margin-left: 300px;
   color: rgb(140, 140, 140);
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);

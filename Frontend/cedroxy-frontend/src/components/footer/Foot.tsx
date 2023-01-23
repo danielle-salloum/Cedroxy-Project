@@ -56,7 +56,7 @@ function Foot() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://instagram.com/cedroxy?igshid=ZmRlMzRkMDU="
+            href="https://wa.me/qr/B45V5UEADE62G1"
           >
             <img className="social-media-logo" src={WAIcon} alt="WhatsApp" />
           </a>

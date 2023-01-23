@@ -15,12 +15,12 @@ function ProductsDescriptionProps(props: ProductDescriptionProps) {
   const images = props.images;
   return (
     <div className="product-des-props-container">
-      <div className="carrousel">
+      <div className="products-des-carrousel">
         <Carousel
           autoPlay={false}
           navButtonsAlwaysVisible={images.length > 1}
           animation={"fade"}
-          indicators={false}
+          // indicators={false}
         >
           {images.map((image: any, index: any) => {
             return (

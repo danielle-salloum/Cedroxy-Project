@@ -1,8 +1,6 @@
 import "./ShopPage.css";
 
 //components
-import Foot from "../../components/footer/Foot";
-import Header from "../../components/header/Header";
 import ShopPageSideBar from "../../components/shopPage/ShopPageSideBar/ShopPageSideBar";
 import ShopPageDashboard from "../../components/shopPage/ShopPageDashboard/ShopPageDashboard";
 

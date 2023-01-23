@@ -2,12 +2,22 @@
   left: -118px;
   padding: 17px;
   position: absolute;
-  margin-top: -45px;
+  margin-top: 40px;
 }
-
+.quoteSidenav-main {
+  position: absolute;
+  margin-left: -10px;
+  width: 120px;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 0 5px 5px 0;
+  color: rgb(140, 140, 140);
+  background-color: rgb(27, 27, 27);
+}
 .quoteSidenav div {
   left: 0;
-  width: 98px;
+  width: 110px;
   padding: 15px;
   font-size: 20px;
   margin-top: 16px;

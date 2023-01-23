@@ -1,9 +1,7 @@
 import { combineReducers } from "redux";
-import LoadingReducer from "./loadingReducer";
-import MessageReducer from "./messageReducer";
+import LoadingReducer from "./LoadingReducer";
 export default combineReducers({
   LoadingReducer,
-  MessageReducer,
 });
 
 export type RootReducer = ReturnType<typeof combineReducers>;

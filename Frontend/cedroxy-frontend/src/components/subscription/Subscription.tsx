@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 function Subscription() {
   const [userEmail, setUserEmail] = useState("");
-  const message = userEmail + " has just subscribed! ";
+  // const message = userEmail + " has just subscribed! ";
   // function ValidateEmail(mail: string) {
   //   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
   //     return true;
