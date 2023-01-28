@@ -16,7 +16,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import HighlightOffOutlinedIcon from "@mui/icons-material/HighlightOffOutlined";
 //props
 type ProductsDescriptionPopupProps = {
-  id: any;
+  id?: any;
   closePopup: any;
 };
 type ProductImageState = {
@@ -57,7 +57,13 @@ function ProductDescription(props: ProductsDescriptionPopupProps) {
   };
   useEffect(() => {
     getProductById();
-  });
+  }); //to open on top of the page
+  const scrollOnTop = () => {
+    window.scroll(0, 0);
+  };
+  useEffect(() => {
+    scrollOnTop();
+  }, []);
 
   //local state
   const [productDescriptionPopup, setProductDescriptionPopup] = useState({
@@ -83,6 +89,7 @@ function ProductDescription(props: ProductsDescriptionPopupProps) {
             size="large"
             title="close icon"
             onClick={props.closePopup}
+            className="close-icon"
           >
             <HighlightOffOutlinedIcon
               sx={{

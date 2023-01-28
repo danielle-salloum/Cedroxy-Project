@@ -9,9 +9,3 @@
     width: 974px;
   }
 }
-@media only screen and (max-width: 1080px) {
-  .app-container {
-    background-color: black;
-    width: 1147px;
-  }
-}

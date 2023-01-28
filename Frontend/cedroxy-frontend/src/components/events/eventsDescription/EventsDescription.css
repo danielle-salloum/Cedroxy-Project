@@ -1,3 +1,8 @@
 .event-des {
   margin-top: 130px;
 }
+@media only screen and (max-width: 902px) {
+  .event-des {
+    margin-top: 100px;
+  }
+}

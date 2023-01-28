@@ -33,13 +33,13 @@
   left: 0; /* On mouse-over, make the elements appear as they should */
   margin-left: 100px;
 }
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 412px) {
   .mySidenav {
     left: -117px;
     margin-top: 37px;
   }
   .mySidenav div {
-    width: 128px;
+    width: 123px;
     padding: 23px;
     font-size: 27px;
   }
@@ -50,8 +50,15 @@
     margin-top: 37px;
   }
   .mySidenav div {
-    width: 128px;
+    width: 123px;
     padding: 23px;
     font-size: 27px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .mySidenav div {
+    width: 84px;
+    padding: 20px;
+    font-size: 20px;
   }
 }

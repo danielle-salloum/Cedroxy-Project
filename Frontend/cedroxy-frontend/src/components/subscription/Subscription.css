@@ -30,9 +30,13 @@
     margin-top: -925px;
   }
 }
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 412px) {
   .subscription-container {
-    margin-top: -915px;
+    margin-top: -822px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .subscription-section {
     height: 40px;
@@ -45,5 +49,32 @@
   }
   .sub-button {
     height: 25px;
+  }
+}
+@media only screen and (max-width: 902px) {
+  .subscription-container {
+    margin-top: -915px;
+    margin-left: -60px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .subscription-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 85px;
+  }
+  .subscription-text {
+    color: rgb(140, 140, 140);
+    margin: 20px;
+    margin-left: -20px;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .subscription-info {
+    display: flex;
+    align-items: center;
+    margin-top: -95px;
+    margin-left: 27px;
   }
 }

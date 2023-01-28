@@ -6,7 +6,7 @@ function AboutUs() {
     <div className="about-us-container" id="aboutus">
       <img className="about-us-pic" src={AboutUsPic} alt="About us pic" />
       <div className="about-us-text">
-        Cedroxy team are convinced that a change will be led in the near future.
+        Cedroxy team is convinced that a change will be led in the near future.
         We, as young graduates, are aiming to enhance the artistic local
         production through a leading example, simultaneously involving the local
         community by creating job opportunities in the handmade artistic field

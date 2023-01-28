@@ -20,7 +20,7 @@ function ProductsDescriptionProps(props: ProductDescriptionProps) {
           autoPlay={false}
           navButtonsAlwaysVisible={images.length > 1}
           animation={"fade"}
-          // indicators={false}
+          indicators={false}
         >
           {images.map((image: any, index: any) => {
             return (

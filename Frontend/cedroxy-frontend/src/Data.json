@@ -212,12 +212,18 @@
     {
       "eventId": 0,
       "title": "France",
-      "date": "2019-01-16",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat tincidunt ante quis sagittis. Sed fringilla ligula vel felis dictum, sed suscipit odio lacinia. Fusce aliquam tortor velit, eu feugiat velit placerat a. Proin laoreet a metus non viverra. Pellentesque dignissim erat libero, ut cursus est porta ac. Sed dictum bibendum velit, id faucibus ante maximus quis. Mauris non massa nisl. In justo justo, bibendum non porta vitae, mattis at urna. Integer id turpis in eros laoreet tempor. Aenean felis quam, sodales et tortor nec, tempor tincidunt purus. Nam porta pellentesque felis, ultricies porttitor quam efficitur in. Pellentesque feugiat augue at magna venenatis finibus. Maecenas congue fringilla est ac consequat. Praesent rutrum placerat tempus. Sed semper lacinia mi, a interdum erat viverra quis. Phasellus lacinia eros id gravida egestas.",
+      "date": "23 May 2022 - 19 June 2022",
+      "description": "After one month of art residency in Domaine de Boisbuchet, Lessac, France, we were able to share our knowledge of woodworking and epoxy resin, discover new ideas and techniques from other artists, develop our artistic and woodworking skills, and create a friendly and professional bond with artists from all around the world. This experience was a turning point in our project and on our personal level. We give special thanks for the Institut Français (Nafas Program) and Domaine de Boisbuchet that made it possible.",
       "images": [
-        "/events/slideshow1.png",
-        "/events/slideshow4.png",
-        "/events/slideshow2.png"
+        "/events/France/eventFrance1.jpg",
+        "/events/France/eventFrance2.jpg",
+        "/events/France/eventFrance3.jpg",
+        "/events/France/eventFrance4.jpg",
+        "/events/France/eventFrance5.jpg",
+        "/events/France/eventFrance6.jpg",
+        "/events/France/eventFrance7.jpg",
+        "/events/France/eventFrance8.jpg",
+        "/events/France/eventFrance9.jpg"
       ]
     },
     {

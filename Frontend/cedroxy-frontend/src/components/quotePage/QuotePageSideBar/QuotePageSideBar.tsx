@@ -27,7 +27,9 @@ function QuotePageSideBar() {
                     ? "quote-bar-categories"
                     : "quote-bar-categories test"
                 }
-                onClick={() => navigate(`/quote/${category.categoryId}`)}
+                onClick={() => {
+                  navigate(`/quote/${category.categoryId}`);
+                }}
               >
                 {category.name}
               </div>

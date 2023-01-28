@@ -24,7 +24,7 @@ function ShopPage() {
   // }, []);
 
   return (
-    <div>
+    <div className="shop-page-main-container">
       <ShopPageTitle />
       <div className="shop-page-container">
         <ShopPageDashboard />

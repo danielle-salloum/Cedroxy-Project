@@ -1,0 +1,259 @@
+/* Form */
+.form {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+/*Text fields */
+.shape-section {
+  width: 200px;
+  height: 35px;
+  margin-right: 220px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.shape-section:focus {
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.text-fields {
+  margin-top: 15px;
+}
+.inputs {
+  margin-right: 25px;
+}
+.height-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.length-section {
+  margin: 3px;
+  height: 20px;
+  width: 200px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.width-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.diameter-section {
+  margin: 3px;
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 2px rgb(140, 140, 140) solid;
+}
+.category-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* price section */
+.price-calculate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price {
+  display: flex;
+  margin-left: 2px;
+  margin-top: 7px;
+  align-items: center;
+}
+.cal-button {
+  margin-left: 70px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+}
+.cal-button:active,
+.cal-button:hover {
+  cursor: pointer;
+  margin-left: 70px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+  border: 1px rgb(140, 140, 140) solid;
+}
+.price-section {
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: rgb(140, 140, 140);
+}
+/* Media Query */
+@media only screen and (max-width: 412px) {
+  .shape-section {
+    width: 200px;
+    height: 35px;
+    margin-right: 75px;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    border: 2px rgb(140, 140, 140) solid;
+  }
+
+  .height-section {
+    height: 40px;
+  }
+  .length-section {
+    height: 40px;
+  }
+  .width-section {
+    height: 40px;
+  }
+  .diameter-section {
+    height: 40px;
+  }
+  .price-section {
+    height: 40px;
+  }
+  .cal-button {
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .shape-section {
+    width: 200px;
+    height: 35px;
+    margin-right: 75px;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    border: 2px rgb(140, 140, 140) solid;
+  }
+
+  .height-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .length-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .width-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .diameter-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .price-section {
+    height: 40px;
+    margin: 15px;
+  }
+  .cal-button {
+    height: 25px;
+  }
+}
+@media only screen and (max-width: 1096px) {
+  .inputs {
+    margin-right: 25px;
+    display: flex;
+  }
+  .height-section {
+    height: 30px;
+    margin: 10px;
+  }
+  .length-section {
+    height: 30px;
+    margin: 10px;
+  }
+  .width-section {
+    height: 30px;
+    margin: 10px;
+  }
+  .diameter-section {
+    height: 30px;
+    margin: 10px;
+  }
+  .price-section {
+    height: 30px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 902px) {
+  .form {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-top: 45px;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .form-section {
+    display: flex;
+    margin-left: 240px;
+    margin-top: 70px;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .inputs {
+    margin-right: 25px;
+    display: flex;
+  }
+  .height-section {
+    height: 30px;
+    margin: 0px;
+    width: 100px;
+    margin-bottom: 13px;
+  }
+  .length-section {
+    height: 30px;
+    margin: 0px;
+    width: 100px;
+    margin-bottom: 13px;
+  }
+  .width-section {
+    height: 30px;
+    width: 100px;
+    margin: 0px;
+    margin-bottom: 13px;
+  }
+  .diameter-section {
+    height: 30px;
+    margin: 0px;
+    width: 100px;
+    margin-bottom: 13px;
+  }
+  .price-section {
+    height: 30px;
+    width: 103px;
+    margin: 0px;
+    margin-bottom: 13px;
+  }
+  .shape-section {
+    width: 200px;
+    height: 35px;
+    margin-left: 80px;
+    margin-right: 0px;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    border: 2px rgb(140, 140, 140) solid;
+  }
+  .price {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 7px;
+    align-items: center;
+  }
+}

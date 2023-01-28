@@ -3,12 +3,28 @@
   align-items: center;
 }
 @media only screen and (max-width: 408px) {
-  .quote-container {
-    display: flex;
-    align-items: center;
-    margin-left: 130px;
-    margin-top: 63px;
-    flex-direction: column;
-    width: 1131px;
+  .quote-page-container {
+    height: 1500px;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .quote-page-container {
+    height: 1790px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .quote-page-container {
+    height: 1550px;
+    width: 83%;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .quote-page-container {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .quote-page-container {
+    width: 40%;
   }
 }

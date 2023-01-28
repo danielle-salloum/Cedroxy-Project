@@ -6,6 +6,8 @@ import data from "../../../Data.json";
 //Navigate
 import { useNavigate } from "react-router";
 
+//component
+import ProductDescription from "../../productDescription/ProductDescription";
 function ShopPageSideBar() {
   //navigation
   const navigate = useNavigate();
@@ -23,7 +25,10 @@ function ShopPageSideBar() {
               className={
                 test === 1 ? "side-bar-categories" : "side-bar-categories test"
               }
-              onClick={() => navigate(`/shop/${category.categoryId}`)}
+              onClick={() => {
+                navigate(`/shop/${category.categoryId}`);
+                <ProductDescription closePopup={true} />;
+              }}
             >
               {category.name}
             </div>

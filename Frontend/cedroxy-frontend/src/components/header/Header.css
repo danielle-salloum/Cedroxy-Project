@@ -47,25 +47,71 @@
   margin-bottom: -20px;
 }
 
-/* Media */
-@media only screen and (max-width: 1080px) {
+/* Media Query */
+@media only screen and (max-width: 412px) {
   .cedroxy-header-logo {
-    width: 13vh;
+    width: 25vh;
   }
   .menu-item {
-    font-size: 29px;
+    font-size: 35px;
+    padding: 10px 17px;
+    font-family: "PT Serif", serif;
+    color: rgb(140 140 140 / 69%);
+  }
+  .header-menu {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
   }
 }
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 912px) {
+  .menu-item {
+    font-size: 30px;
+    padding: 10px 20px;
+    color: rgb(140 140 140 / 69%);
+    font-family: "PT Serif", serif;
+  }
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1286px) {
+  .cedroxy-header-logo {
+    width: 17vh;
+  }
+}
+@media only screen and (max-width: 902px) {
   .header-container {
-    width: 1148px;
+    width: 877px;
   }
 }
-@media only screen and (max-width: 1441px) {
-  .cedroxy-header-logo {
-    width: 22vh;
+@media only screen and (max-width: 690px) {
+  .header-container {
+    width: 650px;
   }
   .menu-item {
-    font-size: 40px;
+    font-size: 22px;
+    padding: 10px 20px;
+    color: rgb(140 140 140 / 69%);
+    font-family: "PT Serif", serif;
+  }
+  .cedroxy-header-logo {
+    width: 15vh;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .header-container {
+    width: 483px;
+  }
+  .menu-item {
+    font-size: 19px;
+    padding: 10px 10px;
+    color: rgb(140 140 140 / 69%);
+    font-family: "PT Serif", serif;
+  }
+  .cedroxy-header-logo {
+    width: 15vh;
   }
 }

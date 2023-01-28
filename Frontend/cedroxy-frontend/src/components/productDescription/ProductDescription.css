@@ -28,8 +28,36 @@
   transform: translate(-50%, -50%);
 }
 /* Media Query */
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 412px) {
   .product-des-container {
     height: 1480px;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .product-popup-content {
+    border-radius: 10%;
+    background-color: black;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 10px;
+    margin-top: 95px;
+    transform: translate(-50%, -50%);
+  }
+  .close-icon {
+    margin-left: -140px !important;
+    margin-top: -20px !important;
+  }
+  .product-image-album-container {
+    border-radius: 5%;
+    position: absolute;
+    left: 2%;
+    top: -23%;
   }
 }
